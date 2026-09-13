@@ -1,0 +1,19 @@
+# japanese_passphrase_sensitive_words.txt
+# 自動フィルタ (build スクリプトの OFFENSIVE_PATTERNS) では拾えない、語単位の不快語・
+# 不適切語リスト。初期内容は AI (Claude) が JUMAN の候補を確認して選定したもので、
+# 人間による見直しを前提としている。
+# 書式は japanese_passphrase_manual_exclude.txt と同じ:
+#   1 行 1 語 (日本語表記 / ひらがな / ローマ字のいずれか, 完全一致)。「語,理由」で理由を付けられる。
+#   既定の理由は offensive。'#' 以降はコメント。
+媚薬,offensive
+鬼畜,offensive
+小人,offensive          # こびと: 差別的とされる呼称
+猿轡,offensive
+人斬り,offensive
+大麻,offensive
+ヘロイン,offensive
+汚物,offensive
+あばずれる,offensive
+生け贄,offensive
+亡者,offensive
+おっぱい,inappropriate

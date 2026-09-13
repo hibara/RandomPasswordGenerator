@@ -101,10 +101,10 @@
     <value>Very strong</value>
   </data>
   <data name="BitsFormat" xml:space="preserve">
-    <value>{0} bit</value>
+    <value>{0} bits</value>
   </data>
   <data name="EstimatedBitsFormat" xml:space="preserve">
-    <value>approx. {0} bit</value>
+    <value>approx. {0} bits</value>
   </data>
   <data name="ModeHistory" xml:space="preserve">
     <value>History</value>
@@ -122,7 +122,7 @@
     <value>History is off. New copies are not recorded, and the history is deleted when the app exits.</value>
   </data>
   <data name="HistoryHint" xml:space="preserve">
-    <value>Copied passwords are kept here and restored next time. Click one to copy it again.</value>
+    <value>Copied passwords are kept here and restored next time. They are saved as a plain-text file in your settings folder (readable only by your account). Click one to copy it again.</value>
   </data>
   <data name="HistoryKindRandom" xml:space="preserve">
     <value>Random</value>
@@ -132,5 +132,11 @@
   </data>
   <data name="HistoryKindPin" xml:space="preserve">
     <value>PIN</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>Could not copy</value>
+  </data>
+  <data name="CopyFailedDetail" xml:space="preserve">
+    <value>The clipboard is not available.</value>
   </data>
 </root>

@@ -22,7 +22,7 @@
 | ContentW.dic SHA-256 | `30d411a91c91be5ad0b356c3bee273399e07a71ba1b77ff3b228b7e7c805b017` |
 | ライセンス | BSD 3-Clause (`juman/COPYING`) |
 
-原典ファイルは `juman/` ディレクトリに無改変で複製してあります (`juman/SOURCE.md` 参照)。
+原典ファイル (`ContentW.dic`, `COPYING`) はこのディレクトリに無改変で複製してあります (`SOURCE.md` 参照)。
 同じ `ContentW.dic`・同じスクリプト・同じ設定・同じ手動リストを使えば、常に同じ出力が得られます。
 
 ## ファイル構成
@@ -30,8 +30,8 @@
 | ファイル | 役割 |
 |---|---|
 | `build_japanese_passphrase_wordlist.py` | 生成スクリプト (Python 3.8+, 標準ライブラリのみ) |
-| `japanese_passphrase_words.csv` | **正本**。`word,hiragana,romaji,pos,category,domain,source` |
-| `japanese_passphrase_words.txt` | アプリ組み込み用。ローマ字のみ 1 行 1 語。CSV と同じ並び順 |
+| `japanese_passphrase_words.csv` | **通常版の正本**。`word,hiragana,romaji,pos,category,domain,source` |
+| `japanese_passphrase_words.txt` | 通常版のローマ字のみ 1 行 1 語。CSV と同じ並び順（現在のアプリでは未使用） |
 | `japanese_passphrase_words_strict.csv` / `.txt` | **厳選版**。通常版から普通名詞・具体物・日常語・区別しやすいローマ字だけを抽出 (下記) |
 | `japanese_passphrase_words_strict_excluded.csv` | 通常版にあって厳選版に入らなかった語と理由 |
 | `japanese_passphrase_excluded.csv` | 除外した語と機械的な理由 (`reason`)。重複排除で落とした語には `note` に残した語を記録 |
@@ -41,13 +41,25 @@
 | `japanese_passphrase_manual_include.csv` | 人間が採用したい語 (自動除外からの復活・追加) |
 | `japanese_passphrase_sensitive_words.txt` | 語単位の不快語リスト (AI 初期選定、人間の見直し前提) |
 | `japanese_passphrase_build_report.md` | 生成時の統計・エントロピー (自動生成) |
-| `juman/` | 原典 `ContentW.dic`, `COPYING`, `SOURCE.md` |
+| `ContentW.dic`, `COPYING`, `SOURCE.md` | 原典の無改変コピーと出典情報 |
 | `THIRD_PARTY_NOTICES.md` | 出典・ライセンス表記 (アプリ側の同名ファイルへ転記可能) |
+
+## アプリが実際に使う辞書 (実行時辞書)
+
+アプリに埋め込まれるのは、この `juman/` の出力そのものではなく、1 つ上の `dic/` にある次の 2 ファイルです。
+
+| ファイル | 役割 |
+|---|---|
+| `../japanese_passphrase_words_strict_long_vowels.csv` | 厳選版 `japanese_passphrase_words_strict.csv` (5,872 語) と同じ語で、ローマ字の長音を省略せず `ou` / `uu` のように綴った版 (例: `aijo` → `aijou`)。長音の綴り直しは本スクリプトの機能ではなく、別途行った加工 |
+| `../japanese_passphrase_romaji.txt` | 上記 CSV の `romaji` 列を同じ並び順で抜き出したもの (1 行 1 語、5,872 語)。**アプリはこのファイルを埋め込みリソースとして読み込む** (`RandomPasswordGenerator.csproj` の `EmbeddedResource`、`Services/WordList.cs` の `ResourceName`) |
+
+したがって出典の系譜は `ContentW.dic` → (本スクリプト) → `japanese_passphrase_words_strict.csv` → (長音の綴り直し) → `japanese_passphrase_words_strict_long_vowels.csv` → (`romaji` 列を抽出) → `japanese_passphrase_romaji.txt` です。
+辞書サイズ N = 5,872 は厳選版と同じで、強度計算 (`PasswordStrength`) はアプリが実行時に読み込んだ語数から求めます。
 
 ## 再生成方法
 
 ```sh
-cd dic
+cd dic/juman
 python3 build_japanese_passphrase_wordlist.py          # 生成 (全出力ファイルを上書き)
 python3 build_japanese_passphrase_wordlist.py --check  # 生成せず、既存出力と再生成結果の一致を検証
 ```

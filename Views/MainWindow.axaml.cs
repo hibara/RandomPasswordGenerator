@@ -33,15 +33,6 @@ public partial class MainWindow : ShadUI.Window
         }
     }
 
-    /// <summary>履歴の行のクリック（タップ）で、そのパスワードを再度クリップボードにコピーする。</summary>
-    private void OnHistoryRowTapped(object? sender, TappedEventArgs e)
-    {
-        if (DataContext is MainWindowViewModel viewModel && sender is Border { DataContext: HistoryRow row })
-        {
-            viewModel.CopyHistoryCommand.Execute(row);
-        }
-    }
-
     /// <summary>パスワード表示領域のクリック（タップ）でクリップボードにコピーする。</summary>
     private void OnPasswordAreaTapped(object? sender, TappedEventArgs e)
     {

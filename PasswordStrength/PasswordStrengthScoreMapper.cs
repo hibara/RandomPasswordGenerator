@@ -23,7 +23,7 @@ public sealed class PasswordStrengthScoreMapper
     public PasswordStrengthScoreMapper() : this(ZxcvbnThresholdsLog10) { }
 
     /// <summary>独自の境界（guesses の常用対数、昇順）を使う。要素数 = 最大スコア。</summary>
-    /// <exception cref="ArgumentException">境界が空、または昇順でない。</exception>
+    /// <exception cref="ArgumentException">境界が空、有限値でない、または昇順でない。</exception>
     public PasswordStrengthScoreMapper(IEnumerable<double> thresholdsLog10)
     {
         ArgumentNullException.ThrowIfNull(thresholdsLog10);
@@ -34,9 +34,15 @@ public sealed class PasswordStrengthScoreMapper
             throw new ArgumentException("境界を 1 つ以上指定してください。", nameof(thresholdsLog10));
         }
 
-        for (var i = 1; i < _thresholdsLog10.Length; i++)
+        for (var i = 0; i < _thresholdsLog10.Length; i++)
         {
-            if (_thresholdsLog10[i] <= _thresholdsLog10[i - 1])
+            // NaN は比較が常に false になり昇順検証をすり抜けるので、有限値だけを受け付ける
+            if (!double.IsFinite(_thresholdsLog10[i]))
+            {
+                throw new ArgumentException("境界には有限値を指定してください。", nameof(thresholdsLog10));
+            }
+
+            if (i > 0 && _thresholdsLog10[i] <= _thresholdsLog10[i - 1])
             {
                 throw new ArgumentException("境界は昇順に指定してください。", nameof(thresholdsLog10));
             }

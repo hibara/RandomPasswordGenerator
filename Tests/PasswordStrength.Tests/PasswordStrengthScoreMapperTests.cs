@@ -65,4 +65,12 @@ public class PasswordStrengthScoreMapperTests
         Assert.Throws<ArgumentException>(() => new PasswordStrengthScoreMapper([5, 5]));
         Assert.Throws<ArgumentException>(() => new PasswordStrengthScoreMapper([5, 3]));
     }
+
+    [Fact]
+    public void NaNや無限大の境界は例外()
+    {
+        Assert.Throws<ArgumentException>(() => new PasswordStrengthScoreMapper([double.NaN]));
+        Assert.Throws<ArgumentException>(() => new PasswordStrengthScoreMapper([3, double.NaN, 8]));
+        Assert.Throws<ArgumentException>(() => new PasswordStrengthScoreMapper([3, double.PositiveInfinity]));
+    }
 }

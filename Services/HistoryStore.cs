@@ -12,7 +12,8 @@ internal sealed partial class HistoryJsonContext : JsonSerializerContext;
 /// コピー履歴の永続化。設定と同じフォルダーの history.json に保存する。
 /// <para>
 /// パスワードが平文で入るファイルなので、履歴が OFF のまま終了したときは <see cref="Delete"/> で必ず消す。
-/// Unix 系では所有者のみ読み書き可（0600）にする。
+/// Unix 系では作成時点から所有者のみ読み書き可（ディレクトリ 0700、ファイル 0600）にする。
+/// 内容は平文の JSON（暗号化していない）。
 /// </para>
 /// </summary>
 public sealed class HistoryStore
@@ -57,14 +58,28 @@ public sealed class HistoryStore
                 return;
             }
 
-            Directory.CreateDirectory(Path.GetDirectoryName(_path)!);
-            using (var stream = File.Create(_path))
+            // 書き込み途中を他ユーザーに読まれないよう、ディレクトリとファイルは作成時点から制限した権限にする
+            // （Windows には Unix の権限ビットが無いので、ユーザープロファイル配下の既定の ACL に任せる）
+            var directory = Path.GetDirectoryName(_path)!;
+            var options = new FileStreamOptions { Mode = FileMode.Create, Access = FileAccess.Write, Share = FileShare.None };
+            if (OperatingSystem.IsWindows())
+            {
+                Directory.CreateDirectory(directory);
+            }
+            else
+            {
+                Directory.CreateDirectory(directory, UnixFileMode.UserRead | UnixFileMode.UserWrite | UnixFileMode.UserExecute);
+                options.UnixCreateMode = UnixFileMode.UserRead | UnixFileMode.UserWrite;
+            }
+
+            using (var stream = new FileStream(_path, options))
             {
                 JsonSerializer.Serialize(stream, entries.ToList(), HistoryJsonContext.Default.ListHistoryEntry);
             }
 
             if (!OperatingSystem.IsWindows())
             {
+                // 既存ファイルを上書きした場合に備えて、権限を改めて 0600 にそろえる
                 File.SetUnixFileMode(_path, UnixFileMode.UserRead | UnixFileMode.UserWrite);
             }
         }

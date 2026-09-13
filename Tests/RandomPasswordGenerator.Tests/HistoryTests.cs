@@ -13,7 +13,7 @@ public class HistoryTests
     private sealed class FakeClipboard : IClipboardService
     {
         public List<string> Copied { get; } = [];
-        public Task SetTextAsync(string text) { Copied.Add(text); return Task.CompletedTask; }
+        public Task<bool> SetTextAsync(string text) { Copied.Add(text); return Task.FromResult(true); }
     }
 
     private static (MainWindowViewModel Vm, FakeClipboard Clipboard) Create(AppSettings? settings = null)

@@ -508,7 +508,12 @@ public sealed partial class MainWindowViewModel : ObservableObject
             return;
         }
 
-        await _clipboard.SetTextAsync(row.Entry.Text);
+        if (!await _clipboard.SetTextAsync(row.Entry.Text))
+        {
+            ShowCopyFailedToast();
+            return;
+        }
+
         ShowCopiedToast();
     }
 
@@ -560,7 +565,12 @@ public sealed partial class MainWindowViewModel : ObservableObject
             return;
         }
 
-        await _clipboard.SetTextAsync(Password);
+        if (!await _clipboard.SetTextAsync(Password))
+        {
+            ShowCopyFailedToast();
+            return;
+        }
+
         RecordHistory(Password, Mode);
         ShowCopiedToast();
     }
@@ -571,6 +581,13 @@ public sealed partial class MainWindowViewModel : ObservableObject
             .WithDelay(2)
             .DismissOnClick()
             .ShowSuccess();
+
+    private void ShowCopyFailedToast() =>
+        ToastManager.CreateToast(Strings.CopyFailed)
+            .WithContent(Strings.CopyFailedDetail)
+            .WithDelay(3)
+            .DismissOnClick()
+            .ShowError();
 
     public AppSettings ToSettings() => new()
     {

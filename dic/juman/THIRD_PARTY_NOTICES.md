@@ -7,7 +7,10 @@
 ## JUMAN (Kyoto University) — ContentW.dic
 
 This product includes a Japanese romanized passphrase word list
-(`japanese_passphrase_words.csv` / `japanese_passphrase_words.txt`) that was
+(`dic/japanese_passphrase_romaji.txt`, 5,872 words, embedded in the application;
+built from `japanese_passphrase_words_strict.csv` produced by
+`build_japanese_passphrase_wordlist.py`, with long vowels respelled as in
+`japanese_passphrase_words_strict_long_vowels.csv`) that was
 **derived from** the JUMAN basic vocabulary dictionary `dic/ContentW.dic`.
 The dictionary data was filtered, romanized, de-duplicated and otherwise
 processed; it is not distributed in its original form except for the verbatim

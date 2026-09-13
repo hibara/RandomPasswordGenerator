@@ -122,7 +122,7 @@
     <value>履歴は OFF です。新しいコピーは記録されず、アプリを終了すると履歴を消去します。</value>
   </data>
   <data name="HistoryHint" xml:space="preserve">
-    <value>コピーしたパスワードをここに残し、次回起動時にも復元します。クリックで再度コピーできます。</value>
+    <value>コピーしたパスワードをここに残し、次回起動時にも復元します。設定フォルダーに自分のアカウントだけが読める平文ファイルとして保存されます。クリックで再度コピーできます。</value>
   </data>
   <data name="HistoryKindRandom" xml:space="preserve">
     <value>ランダム</value>
@@ -132,5 +132,11 @@
   </data>
   <data name="HistoryKindPin" xml:space="preserve">
     <value>暗証番号</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>コピーできませんでした</value>
+  </data>
+  <data name="CopyFailedDetail" xml:space="preserve">
+    <value>クリップボードが利用できません。</value>
   </data>
 </root>

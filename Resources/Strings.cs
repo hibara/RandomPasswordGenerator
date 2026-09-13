@@ -57,4 +57,6 @@ public static class Strings
     public static string HistoryKindRandom => Get(nameof(HistoryKindRandom));
     public static string HistoryKindPassphrase => Get(nameof(HistoryKindPassphrase));
     public static string HistoryKindPin => Get(nameof(HistoryKindPin));
+    public static string CopyFailed => Get(nameof(CopyFailed));
+    public static string CopyFailedDetail => Get(nameof(CopyFailedDetail));
 }

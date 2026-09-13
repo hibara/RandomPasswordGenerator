@@ -48,7 +48,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 
 CONFIG = {
     # --- 入出力 -------------------------------------------------------------
-    "input_dic": os.path.join(HERE, "juman", "ContentW.dic"),
+    "input_dic": os.path.join(HERE, "ContentW.dic"),
     "output_dir": HERE,
     # 原典リビジョン。README / レポートに記録する。
     "juman_repo": "https://github.com/ku-nlp/juman",

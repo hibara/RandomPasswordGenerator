@@ -6,7 +6,7 @@
 
 - リポジトリ: https://github.com/ku-nlp/juman
 - コミット: `82ac584202dda36da30751ef3a9c5418ff2ca48d` (JUMAN 8.0)
-- 入力ファイル: `juman/ContentW.dic`
+- 入力ファイル: `ContentW.dic`
 - 入力 SHA-256: `30d411a91c91be5ad0b356c3bee273399e07a71ba1b77ff3b228b7e7c805b017`
 
 ## 設定

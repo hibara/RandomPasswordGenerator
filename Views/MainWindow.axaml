@@ -129,31 +129,27 @@
             <Setter Property="VerticalAlignment" Value="Center" />
         </Style>
 
-        <!-- 履歴の行。クリックで再コピー。空行はクリックできない -->
-        <Style Selector="Border.HistoryRow">
+        <!-- 履歴の行。ボタンなのでクリックでもキーボード（Enter / Space）でも再コピーできる。空行は無効 -->
+        <Style Selector="Button.HistoryRow">
             <Setter Property="Height" Value="40" />
             <Setter Property="Padding" Value="8,0" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
             <Setter Property="Background" Value="Transparent" />
             <Setter Property="BorderBrush" Value="{DynamicResource BorderColor30}" />
             <Setter Property="BorderThickness" Value="0,0,0,1" />
-            <Setter Property="Cursor" Value="Hand" />
             <Setter Property="CornerRadius" Value="{DynamicResource SmCornerRadius}" />
-            <Setter Property="Transitions">
-                <Transitions>
-                    <BrushTransition Property="Background" Duration="0:0:0.15" />
-                </Transitions>
-            </Setter>
+            <Setter Property="FontWeight" Value="Normal" />
         </Style>
-        <Style Selector="Border.HistoryRow:pointerover">
+        <Style Selector="Button.HistoryRow:pointerover">
             <Setter Property="Background" Value="{DynamicResource GhostHoverColor50}" />
         </Style>
-        <Style Selector="Border.HistoryRow.Empty">
-            <Setter Property="Cursor" Value="Arrow" />
+        <Style Selector="Button.HistoryRow:disabled">
+            <!-- 空行は無効だが、番号を薄くしたくないので不透明のまま -->
+            <Setter Property="Opacity" Value="1" />
         </Style>
-        <Style Selector="Border.HistoryRow.Empty:pointerover">
-            <Setter Property="Background" Value="Transparent" />
-        </Style>
-        <Style Selector="Border.HistoryRow TextBlock.HistoryText">
+        <Style Selector="Button.HistoryRow TextBlock.HistoryText">
             <Setter Property="FontFamily" Value="{StaticResource PasswordFont}" />
             <Setter Property="FontWeight" Value="Bold" />
             <Setter Property="FontSize" Value="18" />
@@ -323,17 +319,20 @@
                 <ScrollViewer IsVisible="{Binding IsHistoryMode}"
                               HorizontalScrollBarVisibility="Disabled"
                               VerticalScrollBarVisibility="Auto">
-                    <ItemsControl ItemsSource="{Binding HistoryRows}" Margin="4">
+                    <ItemsControl x:Name="HistoryList" ItemsSource="{Binding HistoryRows}" Margin="4">
                         <ItemsControl.ItemTemplate>
                             <DataTemplate x:DataType="vm:HistoryRow">
-                                <Border Classes="HistoryRow" Classes.Empty="{Binding IsEmpty}" Tapped="OnHistoryRowTapped">
+                                <Button Classes="HistoryRow"
+                                        IsEnabled="{Binding !IsEmpty}"
+                                        Command="{Binding #HistoryList.((vm:MainWindowViewModel)DataContext).CopyHistoryCommand}"
+                                        CommandParameter="{Binding}">
                                     <Grid ColumnDefinitions="36,*,Auto,Auto">
                                         <TextBlock Grid.Column="0" Classes="Muted" Text="{Binding Index}" VerticalAlignment="Center" />
                                         <TextBlock Grid.Column="1" Classes="HistoryText" Text="{Binding Text}" />
                                         <TextBlock Grid.Column="2" Classes="Muted" Text="{Binding KindLabel}" VerticalAlignment="Center" Margin="16,0,0,0" />
                                         <TextBlock Grid.Column="3" Classes="Muted" Text="{Binding TimeText}" VerticalAlignment="Center" Margin="16,0,0,0" MinWidth="150" TextAlignment="Right" />
                                     </Grid>
-                                </Border>
+                                </Button>
                             </DataTemplate>
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>

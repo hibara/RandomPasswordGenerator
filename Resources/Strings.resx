@@ -119,10 +119,10 @@
     <value>Clear</value>
   </data>
   <data name="HistoryDisabledHint" xml:space="preserve">
-    <value>History is off. New copies are not recorded, and the history is deleted when the app exits.</value>
+    <value>History is off. New copies are not recorded.</value>
   </data>
   <data name="HistoryHint" xml:space="preserve">
-    <value>Copied passwords are kept here and restored next time. They are saved as a plain-text file in your settings folder (readable only by your account). Click one to copy it again.</value>
+    <value>Copied passwords are kept here only while the app is running; nothing is written to disk. Click one to copy it again.</value>
   </data>
   <data name="HistoryKindRandom" xml:space="preserve">
     <value>Random</value>

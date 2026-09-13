@@ -119,10 +119,10 @@
     <value>クリア</value>
   </data>
   <data name="HistoryDisabledHint" xml:space="preserve">
-    <value>履歴は OFF です。新しいコピーは記録されず、アプリを終了すると履歴を消去します。</value>
+    <value>履歴は OFF です。新しいコピーは記録されません。</value>
   </data>
   <data name="HistoryHint" xml:space="preserve">
-    <value>コピーしたパスワードをここに残し、次回起動時にも復元します。設定フォルダーに自分のアカウントだけが読める平文ファイルとして保存されます。クリックで再度コピーできます。</value>
+    <value>コピーしたパスワードを、アプリを終了するまでここに残します。ファイルには保存しません。クリックで再度コピーできます。</value>
   </data>
   <data name="HistoryKindRandom" xml:space="preserve">
     <value>ランダム</value>

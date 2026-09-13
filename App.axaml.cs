@@ -2,7 +2,6 @@ using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
 using PasswordStrength;
-using RandomPasswordGenerator.Models;
 using RandomPasswordGenerator.Services;
 using RandomPasswordGenerator.ViewModels;
 using RandomPasswordGenerator.Views;
@@ -20,17 +19,8 @@ public sealed class App : Application
             var settingsService = new SettingsService();
             var settings = settingsService.Load();
 
-            // 履歴は ON のときだけ読み込む。OFF で終了していれば消えているはずだが、念のため消す
-            var historyStore = new HistoryStore();
-            IReadOnlyList<HistoryEntry> history = [];
-            if (settings.HistoryEnabled)
-            {
-                history = historyStore.Load();
-            }
-            else
-            {
-                historyStore.Delete();
-            }
+            // 履歴はメモリ上にのみ保持する。以前のバージョンが残した履歴ファイルがあれば消す
+            HistoryStore.DeleteLegacyFile();
 
             // 強度評価: 生成条件から正確に計算する（zxcvbn は自由入力の推定時にだけ遅延初期化される）
             var strengthService = new PasswordStrengthService();
@@ -41,24 +31,10 @@ public sealed class App : Application
                 new PassphraseGenerator(EmbeddedWordList.Load(), strengthService),
                 new PinGenerator(),
                 new AvaloniaClipboardService(window),
-                settings,
-                history);
+                settings);
 
             window.DataContext = viewModel;
-            window.Closing += (_, _) =>
-            {
-                settingsService.Save(viewModel.ToSettings());
-
-                // 履歴は ON なら保存、OFF のまま終了なら消去する
-                if (viewModel.HistoryEnabled)
-                {
-                    historyStore.Save(viewModel.HistoryEntries);
-                }
-                else
-                {
-                    historyStore.Delete();
-                }
-            };
+            window.Closing += (_, _) => settingsService.Save(viewModel.ToSettings());
 
             desktop.MainWindow = window;
         }

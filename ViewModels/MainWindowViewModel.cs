@@ -43,8 +43,7 @@ public sealed partial class MainWindowViewModel : ObservableObject
         IPassphraseGenerator passphraseGenerator,
         IPinGenerator pinGenerator,
         IClipboardService clipboard,
-        AppSettings settings,
-        IEnumerable<HistoryEntry>? history = null)
+        AppSettings settings)
     {
         _passwordGenerator = passwordGenerator;
         _passphraseGenerator = passphraseGenerator;
@@ -92,12 +91,6 @@ public sealed partial class MainWindowViewModel : ObservableObject
 
         _historyEnabled = settings.HistoryEnabled;
         _historyCapacity = Math.Clamp(settings.HistoryCapacity, MinHistoryCapacity, MaxHistoryCapacity);
-        if (history is not null)
-        {
-            _history.AddRange(history.Where(e => e.Text.Length > 0));
-            TrimHistory();
-        }
-
         RebuildHistoryRows();
 
         Generate();
@@ -423,7 +416,7 @@ public sealed partial class MainWindowViewModel : ObservableObject
     private static double IndexFontFor(double charFont) => Math.Max(9, Math.Round(charFont / 3));
 
     // =====================================================================
-    // 履歴（クリップボードにコピーしたパスワード。メモリ上にのみ保持する）
+    // 履歴（クリップボードにコピーしたパスワード。メモリ上にのみ保持し、ファイルには保存しない）
     // =====================================================================
 
     public const int MinHistoryCapacity = 1;
@@ -436,13 +429,10 @@ public sealed partial class MainWindowViewModel : ObservableObject
 
     /// <summary>
     /// 履歴を残すかどうか。OFF にしても一覧はすぐには消えず（うっかり消すのを防ぐ）、
-    /// 新しいコピーが記録されなくなるだけ。OFF のままアプリを終了したときに履歴を消す。
+    /// 新しいコピーが記録されなくなるだけ。履歴はアプリを終了すれば消える。
     /// </summary>
     [ObservableProperty]
     private bool _historyEnabled;
-
-    /// <summary>終了時の保存用。現在の履歴（新しい順）。</summary>
-    public IReadOnlyList<HistoryEntry> HistoryEntries => _history;
 
     /// <summary>保持する件数。表示は常にこの行数で、足りない分は空行。</summary>
     [ObservableProperty]
@@ -454,7 +444,7 @@ public sealed partial class MainWindowViewModel : ObservableObject
 
     partial void OnHistoryEnabledChanged(bool value)
     {
-        // 一覧はそのまま。記録の可否だけが変わる（終了時の保存／消去は App 側で行う）
+        // 一覧はそのまま。記録の可否だけが変わる
     }
 
     partial void OnHistoryCapacityChanged(int value)

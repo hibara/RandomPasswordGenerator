@@ -96,25 +96,6 @@ public class HistoryTests
     }
 
     [Fact]
-    public void 起動時に渡した履歴が復元され_件数で切り詰められる()
-    {
-        var saved = new[]
-        {
-            new HistoryEntry("a", GeneratorMode.Random, DateTime.Now),
-            new HistoryEntry("b", GeneratorMode.Pin, DateTime.Now),
-            new HistoryEntry("c", GeneratorMode.Passphrase, DateTime.Now),
-            new HistoryEntry("d", GeneratorMode.Random, DateTime.Now),
-        };
-        var clipboard = new FakeClipboard();
-        var vm = new MainWindowViewModel(
-            new PasswordGenerator(Strength), new PassphraseGenerator(Words, Strength), new PinGenerator(), clipboard,
-            new AppSettings { HistoryEnabled = true, HistoryCapacity = 3 }, saved);
-
-        Assert.Equal(["a", "b", "c"], vm.HistoryRows.Select(r => r.Text));
-        Assert.Equal(3, vm.HistoryEntries.Count);
-    }
-
-    [Fact]
     public async Task 履歴の行をクリックすると再コピーされ_履歴の順序は変わらない()
     {
         var (vm, clipboard) = Create();
@@ -139,7 +120,7 @@ public class HistoryTests
     }
 
     [Fact]
-    public void 設定には履歴の内容は含まれない()
+    public void 設定には履歴の内容は含まれない_履歴はメモリ上だけ()
     {
         var (vm, _) = Create();
         vm.RecordHistory("secret", GeneratorMode.Random);

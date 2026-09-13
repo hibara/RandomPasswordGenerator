@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>ランダムパスワードジェネレーター</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>生成する</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>文字数</value>
+  </data>
+  <data name="IncludeUppercase" xml:space="preserve">
+    <value>大文字</value>
+  </data>
+  <data name="IncludeLowercase" xml:space="preserve">
+    <value>小文字</value>
+  </data>
+  <data name="IncludeDigits" xml:space="preserve">
+    <value>数字</value>
+  </data>
+  <data name="IncludeSymbols" xml:space="preserve">
+    <value>記号</value>
+  </data>
+  <data name="OmitConfusing" xml:space="preserve">
+    <value>紛らわしい文字を省く</value>
+  </data>
+  <data name="ClickToCopy" xml:space="preserve">
+    <value>クリックでクリップボードにコピー</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>コピーしました</value>
+  </data>
+  <data name="CopiedDetail" xml:space="preserve">
+    <value>パスワードをクリップボードにコピーしました。</value>
+  </data>
+  <data name="ModeRandom" xml:space="preserve">
+    <value>ランダムなパスワード</value>
+  </data>
+  <data name="ModePassphrase" xml:space="preserve">
+    <value>覚えやすいパスワード</value>
+  </data>
+  <data name="ModePin" xml:space="preserve">
+    <value>暗証番号</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>単語数</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>区切り</value>
+  </data>
+  <data name="PinLength" xml:space="preserve">
+    <value>桁数</value>
+  </data>
+  <data name="SeparatorHyphen" xml:space="preserve">
+    <value>ハイフン</value>
+  </data>
+  <data name="SeparatorSpace" xml:space="preserve">
+    <value>スペース</value>
+  </data>
+  <data name="SeparatorPeriod" xml:space="preserve">
+    <value>ピリオド</value>
+  </data>
+  <data name="SeparatorComma" xml:space="preserve">
+    <value>コンマ</value>
+  </data>
+  <data name="SeparatorUnderscore" xml:space="preserve">
+    <value>アンダースコア</value>
+  </data>
+  <data name="SeparatorRandomDigit" xml:space="preserve">
+    <value>ランダムな数字</value>
+  </data>
+  <data name="SeparatorRandomDigitOrSymbol" xml:space="preserve">
+    <value>ランダムな数字と記号</value>
+  </data>
+  <data name="Regenerate" xml:space="preserve">
+    <value>新しく生成する</value>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>強度</value>
+  </data>
+  <data name="Strength0" xml:space="preserve">
+    <value>とても弱い</value>
+  </data>
+  <data name="Strength1" xml:space="preserve">
+    <value>弱い</value>
+  </data>
+  <data name="Strength2" xml:space="preserve">
+    <value>普通</value>
+  </data>
+  <data name="Strength3" xml:space="preserve">
+    <value>強い</value>
+  </data>
+  <data name="Strength4" xml:space="preserve">
+    <value>とても強い</value>
+  </data>
+  <data name="BitsFormat" xml:space="preserve">
+    <value>{0} bit</value>
+  </data>
+  <data name="EstimatedBitsFormat" xml:space="preserve">
+    <value>推定 {0} bit</value>
+  </data>
+  <data name="ModeHistory" xml:space="preserve">
+    <value>履歴</value>
+  </data>
+  <data name="HistoryEnabled" xml:space="preserve">
+    <value>履歴を保存する</value>
+  </data>
+  <data name="HistoryCapacity" xml:space="preserve">
+    <value>件数</value>
+  </data>
+  <data name="HistoryClear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="HistoryDisabledHint" xml:space="preserve">
+    <value>履歴は OFF です。新しいコピーは記録されません。</value>
+  </data>
+  <data name="HistoryHint" xml:space="preserve">
+    <value>コピーしたパスワードを、アプリを終了するまでここに残します。ファイルには保存しません。クリックで再度コピーできます。</value>
+  </data>
+  <data name="HistoryKindRandom" xml:space="preserve">
+    <value>ランダム</value>
+  </data>
+  <data name="HistoryKindPassphrase" xml:space="preserve">
+    <value>覚えやすい</value>
+  </data>
+  <data name="HistoryKindPin" xml:space="preserve">
+    <value>暗証番号</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>コピーできませんでした</value>
+  </data>
+  <data name="CopyFailedDetail" xml:space="preserve">
+    <value>クリップボードが利用できません。</value>
+  </data>
+</root>

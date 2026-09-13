@@ -1,0 +1,1221 @@
+word,hiragana,romaji,reason,note,pos,category,domain
+握力,あくりょく,akuryoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+悪性,あくせい,akusei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+荒療治,あらりょうじ,araryoji,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+別状,べつじょう,betsujo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+惚,ぼけ,boke,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+分娩,ぶんべん,bunben,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+分泌,ぶんぴつ,bunpitsu,medical_domain,健康・医学; romaji_used_by:文筆,サ変名詞,抽象物,健康・医学
+病,びょう,byo,medical_domain,健康・医学; romaji_used_by:廟,普通名詞,抽象物,健康・医学
+病没,びょうぼつ,byobotsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+病害,びょうがい,byogai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病原,びょうげん,byogen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病弊,びょうへい,byohei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病変,びょうへん,byohen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病状,びょうじょう,byojo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病気,びょうき,byoki,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病根,びょうこん,byokon,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病名,びょうめい,byomei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病理,びょうり,byori,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病床,びょうしょう,byosho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+着床,ちゃくしょう,chakusho,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+知覚,ちかく,chikaku,medical_domain,健康・医学; romaji_used_by:地核,サ変名詞,抽象物,健康・医学
+鎮静,ちんせい,chinsei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+鎮痛,ちんつう,chintsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+治療,ちりょう,chiryo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+窒息,ちっそく,chissoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+治癒,ちゆ,chiyu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+聴覚,ちょうかく,chokaku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+聴力,ちょうりょく,choryoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+調剤,ちょうざい,chozai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+中毒,ちゅうどく,chudoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+中耳炎,ちゅうじえん,chujien,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+注射,ちゅうしゃ,chusha,medical_domain,健康・医学; romaji_used_by:駐車,サ変名詞,抽象物,健康・医学
+虫垂炎,ちゅうすいえん,chusuien,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+打撲,だぼく,daboku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+脱臼,だっきゅう,dakkyu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+打診,だしん,dashin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+脱毛,だつもう,datsumo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+伝染,でんせん,densen,medical_domain,健康・医学; romaji_used_by:電線,サ変名詞,抽象物,健康・医学
+毒性,どくせい,dokusei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+鈍痛,どんつう,dontsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+衛生,えいせい,eisei,medical_domain,健康・医学; romaji_used_by:衛星,普通名詞,抽象物,健康・医学
+疫病,えきびょう,ekibyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+疫学,えきがく,ekigaku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+疫痢,えきり,ekiri,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+延命,えんめい,enmei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+遠視,えんし,enshi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+炎症,えんしょう,ensho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+不治,ふじ,fuji,medical_domain,健康・医学; romaji_used_by:藤,普通名詞,抽象物,健康・医学
+服毒,ふくどく,fukudoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+腹膜炎,ふくまくえん,fukumakuen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+腹痛,ふくつう,fukutsu,medical_domain,健康・医学; romaji_used_by:不屈,普通名詞,抽象物,健康・医学
+服薬,ふくやく,fukuyaku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+服用,ふくよう,fukuyo,medical_domain,健康・医学; romaji_used_by:複葉,サ変名詞,抽象物,健康・医学
+不眠,ふみん,fumin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+不妊,ふにん,funin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+古傷,ふるきず,furukizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+風疹,ふうしん,fushin,medical_domain,健康・医学; romaji_used_by:不審,普通名詞,抽象物,健康・医学
+負傷,ふしょう,fusho,medical_domain,健康・医学; romaji_used_by:封書,サ変名詞,抽象物,健康・医学
+不全,ふぜん,fuzen,medical_domain,健康・医学; romaji_used_by:風前,普通名詞,抽象物,健康・医学
+不随,ふずい,fuzui,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+外反母趾,がいはんぼし,gaihanboshi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+外傷,がいしょう,gaisho,medical_domain,健康・医学; romaji_used_by:外商,普通名詞,抽象物,健康・医学
+眼病,がんびょう,ganbyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+眼科,がんか,ganka,medical_domain,健康・医学; romaji_used_by:眼下,普通名詞,抽象物,健康・医学
+解毒,げどく,gedoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+外科,げか,geka,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+下血,げけつ,geketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+激痛,げきつう,gekitsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+月経,げっけい,gekkei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+解熱,げねつ,genetsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+幻覚,げんかく,genkaku,medical_domain,健康・医学; romaji_used_by:厳格,普通名詞,抽象物,健康・医学
+減量,げんりょう,genryo,medical_domain,健康・医学; romaji_used_by:原料,サ変名詞,抽象物,健康・医学
+減食,げんしょく,genshoku,medical_domain,健康・医学; romaji_used_by:原色,サ変名詞,抽象物,健康・医学
+げっぷ,げっぷ,geppu,medical_domain,健康・医学; romaji_used_by:月賦,普通名詞,抽象物,健康・医学
+下痢,げり,geri,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+疑陽性,ぎようせい,giyosei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+誤飲,ごいん,goin,medical_domain,健康・医学; romaji_used_by:強引,サ変名詞,抽象物,健康・医学
+誤診,ごしん,goshin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+歯軋り,はぎしり,hagishiri,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+肺病,はいびょう,haibyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+肺炎,はいえん,haien,medical_domain,健康・医学; romaji_used_by:排煙,普通名詞,抽象物,健康・医学
+徘徊,はいかい,haikai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+敗血症,はいけつしょう,haiketsusho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+排卵,はいらん,hairan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+発汗,はっかん,hakkan,medical_domain,健康・医学; romaji_used_by:発刊,サ変名詞,抽象物,健康・医学
+白内障,はくないしょう,hakunaisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+鼻声,はなごえ,hanagoe,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+歯並び,はならび,hanarabi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+麻疹,はしか,hashika,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+破傷風,はしょうふう,hashofu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+発疹,はっしん,hasshin,medical_domain,健康・医学; romaji_used_by:発進,サ変名詞,抽象物,健康・医学
+発症,はっしょう,hassho,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+発病,はつびょう,hatsubyo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+発育,はついく,hatsuiku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+発熱,はつねつ,hatsunetsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+併発,へいはつ,heihatsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+閉経,へいけい,heikei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+閉塞,へいそく,heisoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+平癒,へいゆ,heiyu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+偏見,へんけん,henken,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+変性症,へんせいしょう,henseisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+干乾し,ひぼし,hiboshi,medical_domain,健康・医学; romaji_used_by:日干し,普通名詞,抽象物,健康・医学
+火膨れ,ひぶくれ,hibukure,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+肥大,ひだい,hidai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+冷え性,ひえしょう,hiesho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+肥満,ひまん,himan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+避妊,ひにん,hinin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+貧血,ひんけつ,hinketsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+保健,ほけん,hoken,medical_domain,健康・医学; romaji_used_by:保険,普通名詞,抽象物,健康・医学
+保菌,ほきん,hokin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+保湿,ほしつ,hoshitsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+疱瘡,ほうそう,hoso,medical_domain,健康・医学; romaji_used_by:法曹,普通名詞,抽象物,健康・医学
+発作,ほっさ,hossa,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+保養,ほよう,hoyo,medical_domain,健康・医学; romaji_used_by:法要,サ変名詞,抽象物,健康・医学
+一命,いちめい,ichimei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+遺伝,いでん,iden,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+胃炎,いえん,ien,medical_domain,健康・医学; romaji_used_by:以遠,普通名詞,抽象物,健康・医学
+医事,いじ,iji,medical_domain,健康・医学; romaji_used_by:遺児,普通名詞,抽象物,健康・医学
+医術,いじゅつ,ijutsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+息切れ,いきぎれ,ikigire,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+息の根,いきのね,ikinone,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+医務,いむ,imu,medical_domain,健康・医学; romaji_used_by:忌む,普通名詞,抽象物,健康・医学
+医療,いりょう,iryo,medical_domain,健康・医学; romaji_used_by:衣料,普通名詞,抽象物,健康・医学
+移植,いしょく,ishoku,medical_domain,健康・医学; romaji_used_by:衣食,サ変名詞,抽象物,健康・医学
+萎縮,いしゅく,ishuku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+胃痛,いつう,itsu,medical_domain,健康・医学; romaji_used_by:いつ,普通名詞,抽象物,健康・医学
+弱視,じゃくし,jakushi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+耳鼻咽喉科,じびいんこうか,jibiinkoka,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+耳鼻科,じびか,jibika,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+持病,じびょう,jibyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+自閉症,じへいしょう,jiheisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+腎炎,じんえん,jinen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+蕁麻疹,じんましん,jinmashin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+塵肺,じんぱい,jinpai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+滋養,じよう,jiyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+助命,じょめい,jomei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+重病,じゅうびょう,jubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+充血,じゅうけつ,juketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+受精,じゅせい,jusei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+受診,じゅしん,jushin,medical_domain,健康・医学; romaji_used_by:重臣,サ変名詞,抽象物,健康・医学
+重傷,じゅうしょう,jusho,medical_domain,健康・医学; romaji_used_by:住所,普通名詞,抽象物,健康・医学
+重症,じゅうしょう,jusho,medical_domain,健康・医学; romaji_used_by:住所,普通名詞,抽象物,健康・医学
+重体,じゅうたい,jutai,medical_domain,健康・医学; romaji_used_by:渋滞,普通名詞,抽象物,健康・医学
+解剖,かいぼう,kaibo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+快復,かいふく,kaifuku,medical_domain,健康・医学; romaji_used_by:回復,サ変名詞,抽象物,健康・医学
+開腹,かいふく,kaifuku,medical_domain,健康・医学; romaji_used_by:回復,サ変名詞,抽象物,健康・医学
+快方,かいほう,kaiho,medical_domain,健康・医学; romaji_used_by:介抱,普通名詞,抽象物,健康・医学
+回診,かいしん,kaishin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+潰瘍,かいよう,kaiyo,medical_domain,健康・医学; romaji_used_by:海洋,普通名詞,抽象物,健康・医学
+脚気,かっけ,kakke,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+感冒,かんぼう,kanbo,medical_domain,健康・医学; romaji_used_by:官房,普通名詞,抽象物,健康・医学
+完治,かんち,kanchi,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+肝炎,かんえん,kanen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+看護,かんご,kango,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+肝硬変,かんこうへん,kankohen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+化膿,かのう,kano,medical_domain,健康・医学; romaji_used_by:可能,サ変名詞,抽象物,健康・医学
+漢方,かんぽう,kanpo,medical_domain,健康・医学; romaji_used_by:官報,普通名詞,抽象物,健康・医学
+感染,かんせん,kansen,medical_domain,健康・医学; romaji_used_by:艦船,サ変名詞,抽象物,健康・医学
+過食,かしょく,kashoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+掠り傷,かすりきず,kasurikizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+肩凝り,かたこり,katakori,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+風邪,かぜ,kaze,medical_domain,健康・医学; romaji_used_by:風,普通名詞,抽象物,健康・医学
+仮病,けびょう,kebyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+怪我,けが,kega,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+経口,けいこう,keiko,medical_domain,健康・医学; romaji_used_by:稽古,普通名詞,抽象物,健康・医学
+痙攣,けいれん,keiren,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+軽傷,けいしょう,keisho,medical_domain,健康・医学; romaji_used_by:軽少,普通名詞,抽象物,健康・医学
+軽症,けいしょう,keisho,medical_domain,健康・医学; romaji_used_by:軽少,普通名詞,抽象物,健康・医学
+血行,けっこう,kekko,medical_domain,健康・医学; romaji_used_by:欠航,普通名詞,抽象物,健康・医学
+顕微,けんび,kenbi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+健忘症,けんぼうしょう,kenbosho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+検疫,けんえき,keneki,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+検眼,けんがん,kengan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+健常,けんじょう,kenjo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+献血,けんけつ,kenketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+検温,けんおん,kenon,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+健診,けんしん,kenshin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+検診,けんしん,kenshin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+倦怠,けんたい,kentai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+献体,けんたい,kentai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+結石,けっせき,kesseki,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血栓,けっせん,kessen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血色,けっしょく,kesshoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血沈,けっちん,ketchin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血圧,けつあつ,ketsuatsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+結膜炎,けつまくえん,ketsumakuen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血友病,けつゆうびょう,ketsuyubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+血糖,けっとう,ketto,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+奇病,きびょう,kibyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+気管支炎,きかんしえん,kikanshien,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+効き目,ききめ,kikime,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+禁煙,きんえん,kinen,medical_domain,健康・医学; romaji_used_by:祈念,サ変名詞,抽象物,健康・医学
+近眼,きんがん,kingan,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+近視,きんし,kinshi,medical_domain,健康・医学; romaji_used_by:菌糸,普通名詞,抽象物,健康・医学
+切り傷,きりきず,kirikizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+危篤,きとく,kitoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+気絶,きぜつ,kizetsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+傷,きず,kizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+傷口,きずぐち,kizuguchi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+紅潮,こうちょう,kocho,medical_domain,健康・医学; romaji_used_by:校長,サ変名詞,抽象物,健康・医学
+硬直,こうちょく,kochoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+声変わり,こえがわり,koegawari,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+後遺症,こういしょう,koisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+抗菌,こうきん,kokin,medical_domain,健康・医学; romaji_used_by:公金,普通名詞,抽象物,健康・医学
+腓返り,こむらがえり,komuragaeri,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+根治,こんち,konchi,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+高熱,こうねつ,konetsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+効能,こうのう,kono,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+昏睡,こんすい,konsui,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+高齢,こうれい,korei,medical_domain,健康・医学; romaji_used_by:恒例,普通名詞,抽象物,健康・医学
+公傷,こうしょう,kosho,medical_domain,健康・医学; romaji_used_by:鉱床,普通名詞,抽象物,健康・医学
+口臭,こうしゅう,koshu,medical_domain,健康・医学; romaji_used_by:好手,普通名詞,抽象物,健康・医学
+梗塞,こうそく,kosoku,medical_domain,健康・医学; romaji_used_by:校則,サ変名詞,抽象物,健康・医学
+骨折,こっせつ,kossetsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+効用,こうよう,koyo,medical_domain,健康・医学; romaji_used_by:紅葉,普通名詞,抽象物,健康・医学
+駆虫,くちゅう,kuchu,medical_domain,健康・医学; romaji_used_by:空中,サ変名詞,抽象物,健康・医学
+駆除,くじょ,kujo,medical_domain,健康・医学; romaji_used_by:苦情,サ変名詞,抽象物,健康・医学
+くしゃみ,くしゃみ,kushami,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+薬漬け,くすりづけ,kusurizuke,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+矯正,きょうせい,kyosei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+去勢,きょせい,kyosei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+拒食,きょしょく,kyoshoku,medical_domain,健康・医学; romaji_used_by:教職,普通名詞,抽象物,健康・医学
+胸痛,きょうつう,kyotsu,medical_domain,健康・医学; romaji_used_by:共通,普通名詞,抽象物,健康・医学
+灸,きゅう,kyu,medical_domain,健康・医学; romaji_used_by:急,普通名詞,抽象物,健康・医学
+急病,きゅうびょう,kyubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+急変,きゅうへん,kyuhen,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+救急,きゅうきゅう,kyukyu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+救命,きゅうめい,kyumei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+急性,きゅうせい,kyusei,medical_domain,健康・医学; romaji_used_by:旧制,普通名詞,抽象物,健康・医学
+急逝,きゅうせい,kyusei,medical_domain,健康・医学; romaji_used_by:旧制,サ変名詞,抽象物,健康・医学
+休診,きゅうしん,kyushin,medical_domain,健康・医学; romaji_used_by:球審,サ変名詞,抽象物,健康・医学
+休養,きゅうよう,kyuyo,medical_domain,健康・医学; romaji_used_by:給与,サ変名詞,抽象物,健康・医学
+麻痺,まひ,mahi,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+万病,まんびょう,manbyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+慢性,まんせい,mansei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+麻酔,ますい,masui,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+滅菌,めっきん,mekkin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+目眩,めまい,memai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+免疫,めんえき,meneki,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+耳鳴り,みみなり,miminari,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+みみずばれ,みみずばれ,mimizubare,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+水疱瘡,みずぼうそう,mizuboso,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+水膨れ,みずぶくれ,mizubukure,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+水虫,みずむし,mizumushi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+猛威,もうい,moi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+問診,もんしん,monshin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+耄碌,もうろく,moroku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+毛細,もうさい,mosai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+無病,むびょう,mubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+無病息災,むびょうそくさい,mubyosokusai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+鞭打ち,むちうち,muchiuchi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+鞭打ち症,むちうちしょう,muchiuchisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+無菌,むきん,mukin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+浮腫,むくみ,mukumi,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+胸焼け,むねやけ,muneyake,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脈,みゃく,myaku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脈拍,みゃくはく,myakuhaku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+内分泌,ないぶんぴつ,naibunpitsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+内科,ないか,naika,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+内出血,ないしゅっけつ,naishukketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+生傷,なまきず,namakizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+難病,なんびょう,nanbyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+難聴,なんちょう,nancho,medical_domain,健康・医学; romaji_used_by:軟調,普通名詞,抽象物,健康・医学
+難治,なんじ,nanji,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+夏ばて,なつばて,natsubate,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+猫背,ねこぜ,nekoze,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+捻挫,ねんざ,nenza,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+熱病,ねつびょう,netsubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+肉離れ,にくばなれ,nikubanare,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+脳炎,のうえん,noen,medical_domain,健康・医学; romaji_used_by:農園,普通名詞,抽象物,健康・医学
+脳波,のうは,noha,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脳溢血,のういっけつ,noikketsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脳膜炎,のうまくえん,nomakuen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脳震盪,のうしんとう,noshinto,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脳症,のうしょう,nosho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+脳卒中,のうそっちゅう,nosotchu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+膿瘍,のうよう,noyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+入院,にゅういん,nyuin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+悪寒,おかん,okan,medical_domain,健康・医学; romaji_used_by:王冠,普通名詞,抽象物,健康・医学
+大怪我,おおけが,okega,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+応急,おうきゅう,okyu,medical_domain,健康・医学; romaji_used_by:王宮,普通名詞,抽象物,健康・医学
+黄熱,おうねつ,onetsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+往診,おうしん,oshin,medical_domain,健康・医学; romaji_used_by:往信,サ変名詞,抽象物,健康・医学
+来院,らいいん,raiin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+乱視,らんし,ranshi,medical_domain,健康・医学; romaji_used_by:卵子,普通名詞,抽象物,健康・医学
+裂傷,れっしょう,ressho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+罹患,りかん,rikan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+老眼,ろうがん,rogan,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+老衰,ろうすい,rosui,medical_domain,健康・医学; romaji_used_by:漏水,サ変名詞,抽象物,健康・医学
+両眼,りょうがん,ryogan,medical_domain,健康・医学; romaji_used_by:両岸,普通名詞,抽象物,健康・医学
+療法,りょうほう,ryoho,medical_domain,健康・医学; romaji_used_by:両方,普通名詞,抽象物,健康・医学
+緑内障,りょくないしょう,ryokunaisho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+療養,りょうよう,ryoyo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+流感,りゅうかん,ryukan,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+流血,りゅうけつ,ryuketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+再発,さいはつ,saihatsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+採血,さいけつ,saiketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+採卵,さいらん,sairan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+済生,さいせい,saisei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+殺菌,さっきん,sakkin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+産婦人科,さんふじんか,sanfujinka,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+産科,さんか,sanka,medical_domain,健康・医学; romaji_used_by:山河,普通名詞,抽象物,健康・医学
+刺し傷,さしきず,sashikizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+成育,せいいく,seiiku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+整形,せいけい,seikei,medical_domain,健康・医学; romaji_used_by:政経,サ変名詞,抽象物,健康・医学
+整骨,せいこつ,seikotsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+生理,せいり,seiri,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+整体,せいたい,seitai,medical_domain,健康・医学; romaji_used_by:生体,普通名詞,抽象物,健康・医学
+製薬,せいやく,seiyaku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+静養,せいよう,seiyo,medical_domain,健康・医学; romaji_used_by:西洋,サ変名詞,抽象物,健康・医学
+製剤,せいざい,seizai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+咳,せき,seki,medical_domain,健康・医学; romaji_used_by:席,普通名詞,抽象物,健康・医学
+赤痢,せきり,sekiri,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+切開,せっかい,sekkai,medical_domain,健康・医学; romaji_used_by:石灰,サ変名詞,抽象物,健康・医学
+洗眼,せんがん,sengan,medical_domain,健康・医学; romaji_used_by:洗顔,サ変名詞,抽象物,健康・医学
+潜血,せんけつ,senketsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+戦傷,せんしょう,sensho,medical_domain,健康・医学; romaji_used_by:選書,サ変名詞,抽象物,健康・医学
+腺腫,せんしゅ,senshu,medical_domain,健康・医学; romaji_used_by:船首,普通名詞,抽象物,健康・医学
+摂生,せっせい,sessei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+接種,せっしゅ,sesshu,medical_domain,健康・医学; romaji_used_by:拙守,サ変名詞,抽象物,健康・医学
+摂取,せっしゅ,sesshu,medical_domain,健康・医学; romaji_used_by:拙守,サ変名詞,抽象物,健康・医学
+切除,せつじょ,setsujo,medical_domain,健康・医学; romaji_used_by:雪上,サ変名詞,抽象物,健康・医学
+煮沸,しゃふつ,shafutsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+しゃっくり,しゃっくり,shakkuri,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+指圧,しあつ,shiatsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+紫外線,しがいせん,shigaisen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+死因,しいん,shiin,medical_domain,健康・医学; romaji_used_by:子音,普通名詞,抽象物,健康・医学
+施術,しじゅつ,shijutsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+歯科,しか,shika,medical_domain,健康・医学; romaji_used_by:鹿,普通名詞,抽象物,健康・医学
+視覚,しかく,shikaku,medical_domain,健康・医学; romaji_used_by:刺客,普通名詞,抽象物,健康・医学
+弛緩,しかん,shikan,medical_domain,健康・医学; romaji_used_by:士官,サ変名詞,抽象物,健康・医学
+止血,しけつ,shiketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+色盲,しきもう,shikimo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+疾患,しっかん,shikkan,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+失血,しっけつ,shikketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+失禁,しっきん,shikkin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+しこり,しこり,shikori,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+診断,しんだん,shindan,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+心因性,しんいんせい,shininsei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+鍼灸,しんきゅう,shinkyu,medical_domain,健康・医学; romaji_used_by:進級,普通名詞,抽象物,健康・医学
+心拍,しんぱく,shinpaku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+診療,しんりょう,shinryo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+診察,しんさつ,shinsatsu,medical_domain,健康・医学; romaji_used_by:新札,サ変名詞,抽象物,健康・医学
+真性,しんせい,shinsei,medical_domain,健康・医学; romaji_used_by:新星,普通名詞,抽象物,健康・医学
+疾病,しっぺい,shippei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+視力,しりょく,shiryoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+死傷,ししょう,shisho,medical_domain,健康・医学; romaji_used_by:司書,サ変名詞,抽象物,健康・医学
+歯周炎,ししゅうえん,shishuen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+失神,しっしん,shisshin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+湿疹,しっしん,shisshin,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+失調,しっちょう,shitcho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+失語症,しつごしょう,shitsugosho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+失明,しつめい,shitsumei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+執刀,しっとう,shitto,medical_domain,健康・医学; romaji_used_by:失投,サ変名詞,抽象物,健康・医学
+傷,しょう,sho,medical_domain,健康・医学; romaji_used_by:笙,普通名詞,抽象物,健康・医学
+症,しょう,sho,medical_domain,健康・医学; romaji_used_by:笙,普通名詞,抽象物,健康・医学
+傷病,しょうびょう,shobyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+処置,しょち,shochi,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+初潮,しょちょう,shocho,medical_domain,健康・医学; romaji_used_by:小腸,普通名詞,抽象物,健康・医学
+消毒,しょうどく,shodoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+処方,しょほう,shoho,medical_domain,健康・医学; romaji_used_by:唱法,普通名詞,抽象物,健康・医学
+症状,しょうじょう,shojo,medical_domain,健康・医学; romaji_used_by:少女,普通名詞,抽象物,健康・医学
+消化,しょうか,shoka,medical_domain,健康・医学; romaji_used_by:商家,サ変名詞,抽象物,健康・医学
+初経,しょけい,shokei,medical_domain,健康・医学; romaji_used_by:小径,普通名詞,抽象物,健康・医学
+所見,しょけん,shoken,medical_domain,健康・医学; romaji_used_by:証券,普通名詞,抽象物,健康・医学
+小康,しょうこう,shoko,medical_domain,健康・医学; romaji_used_by:将校,普通名詞,抽象物,健康・医学
+症候,しょうこう,shoko,medical_domain,健康・医学; romaji_used_by:将校,普通名詞,抽象物,健康・医学
+猩紅熱,しょうこうねつ,shokonetsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+食あたり,しょくあたり,shokuatari,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+症例,しょうれい,shorei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+初診,しょしん,shoshin,medical_domain,健康・医学; romaji_used_by:小心,普通名詞,抽象物,健康・医学
+小頭症,しょうとうしょう,shotosho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+手術,しゅじゅつ,shujutsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+臭覚,しゅうかく,shukaku,medical_domain,健康・医学; romaji_used_by:主客,普通名詞,抽象物,健康・医学
+出血,しゅっけつ,shukketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+収縮,しゅうしゅく,shushuku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+種痘,しゅとう,shuto,medical_domain,健康・医学; romaji_used_by:舅,普通名詞,抽象物,健康・医学
+腫瘍,しゅよう,shuyo,medical_domain,健康・医学; romaji_used_by:主要,普通名詞,抽象物,健康・医学
+阻害,そがい,sogai,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+損傷,そんしょう,sonsho,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+蘇生,そせい,sosei,medical_domain,健康・医学; romaji_used_by:早世,サ変名詞,抽象物,健康・医学
+衰弱,すいじゃく,suijaku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+擦り傷,すりきず,surikizu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+大病,たいびょう,taibyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+体調,たいちょう,taicho,medical_domain,健康・医学; romaji_used_by:隊長,普通名詞,抽象物,健康・医学
+胎動,たいどう,taido,medical_domain,健康・医学; romaji_used_by:態度,サ変名詞,抽象物,健康・医学
+体位,たいい,taii,medical_domain,健康・医学; romaji_used_by:大医,普通名詞,抽象物,健康・医学
+退院,たいいん,taiin,medical_domain,健康・医学; romaji_used_by:隊員,サ変名詞,抽象物,健康・医学
+退行,たいこう,taiko,medical_domain,健康・医学; romaji_used_by:太古,サ変名詞,抽象物,健康・医学
+胎教,たいきょう,taikyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+胎生,たいせい,taisei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+代謝,たいしゃ,taisha,medical_domain,健康・医学; romaji_used_by:大社,サ変名詞,抽象物,健康・医学
+対症,たいしょう,taisho,medical_domain,健康・医学; romaji_used_by:大暑,普通名詞,抽象物,健康・医学
+摘出,てきしゅつ,tekishutsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+転移,てんい,teni,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+天然痘,てんねんとう,tennento,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+点滴,てんてき,tenteki,medical_domain,健康・医学; romaji_used_by:天敵,普通名詞,抽象物,健康・医学
+闘病,とうびょう,tobyo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+湯治,とうじ,toji,medical_domain,健康・医学; romaji_used_by:冬至,サ変名詞,抽象物,健康・医学
+吐血,とけつ,toketsu,medical_domain,健康・医学; romaji_used_by:凍結,サ変名詞,抽象物,健康・医学
+床擦れ,とこずれ,tokozure,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+頓服,とんぷく,tonpuku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+鳥肌,とりはだ,torihada,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+透析,とうせき,toseki,medical_domain,健康・医学; romaji_used_by:投石,サ変名詞,抽象物,健康・医学
+凍傷,とうしょう,tosho,medical_domain,健康・医学; romaji_used_by:島嶼,普通名詞,抽象物,健康・医学
+投薬,とうやく,toyaku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+投与,とうよ,toyo,medical_domain,健康・医学; romaji_used_by:東洋,サ変名詞,抽象物,健康・医学
+痛,つう,tsu,medical_domain,健康・医学; romaji_used_by:通,普通名詞,抽象物,健康・医学
+痛風,つうふう,tsufu,medical_domain,健康・医学; romaji_used_by:通風,普通名詞,抽象物,健康・医学
+鬱,うつ,utsu,medical_domain,健康・医学; romaji_used_by:打つ,普通名詞,抽象物,健康・医学
+鬱病,うつびょう,utsubyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+火傷,やけど,yakedo,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+薬科,やっか,yakka,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+薬効,やっこう,yakko,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+薬害,やくがい,yakugai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+薬用,やくよう,yakuyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+病み上がり,やみあがり,yamiagari,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+やせぎす,やせぎす,yasegisu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+予防,よぼう,yobo,medical_domain,健康・医学; romaji_used_by:養母,サ変名詞,抽象物,健康・医学
+余病,よびょう,yobyo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+容体,ようだい,yodai,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+養生,ようじょう,yojo,medical_domain,健康・医学; romaji_used_by:幼女,サ変名詞,抽象物,健康・医学
+余命,よめい,yomei,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+陽転,ようてん,yoten,medical_domain,健康・医学; romaji_used_by:要点,サ変名詞,抽象物,健康・医学
+腰痛,ようつう,yotsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+癒着,ゆちゃく,yuchaku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+輸血,ゆけつ,yuketsu,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+挫傷,ざしょう,zasho,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+贅肉,ぜいにく,zeiniku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+全治,ぜんち,zenchi,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+全快,ぜんかい,zenkai,medical_domain,健康・医学; romaji_used_by:前回,サ変名詞,抽象物,健康・医学
+全盲,ぜんもう,zenmo,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+喘息,ぜんそく,zensoku,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+絶食,ぜっしょく,zesshoku,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+絶命,ぜつめい,zetsumei,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+増進,ぞうしん,zoshin,medical_domain,健康・医学,サ変名詞,抽象物,健康・医学
+髄膜炎,ずいまくえん,zuimakuen,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+頭痛,ずつう,zutsu,medical_domain,健康・医学,普通名詞,抽象物,健康・医学
+あまた,あまた,amata,quantity,数量,普通名詞,数量,
+足掛け,あしかけ,ashikake,quantity,数量,普通名詞,抽象物;数量,
+価,あたい,atai,quantity,数量,普通名詞,数量,
+値,あたい,atai,quantity,数量,普通名詞,数量,
+倍,ばい,bai,quantity,数量,普通名詞,数量,
+売価,ばいか,baika,quantity,数量; romaji_used_by:梅花,普通名詞,数量,ビジネス
+倍率,ばいりつ,bairitsu,quantity,数量,普通名詞,数量,科学・技術;ビジネス
+倍数,ばいすう,baisu,quantity,数量,普通名詞,数量,教育・学習
+場数,ばかず,bakazu,quantity,数量,普通名詞,数量,
+馬力,ばりき,bariki,quantity,数量,普通名詞,数量,
+米価,べいか,beika,quantity,数量; romaji_used_by:米貨,普通名詞,数量,政治
+冪,べき,beki,quantity,数量,普通名詞,数量,教育・学習
+微分,びぶん,bibun,quantity,数量,サ変名詞,数量,教育・学習
+微熱,びねつ,binetsu,quantity,数量,普通名詞,数量,健康・医学
+微量,びりょう,biryo,quantity,数量,普通名詞,数量,
+没年,ぼつねん,botsunen,quantity,数量,普通名詞,抽象物;数量,
+歩合,ぶあい,buai,quantity,数量,普通名詞,数量,ビジネス
+物価,ぶっか,bukka,quantity,数量,普通名詞,数量,ビジネス
+分,ぶん,bun,quantity,数量,普通名詞,数量,
+分量,ぶんりょう,bunryo,quantity,数量,普通名詞,数量,
+分数,ぶんすう,bunsu,quantity,数量,普通名詞,数量,教育・学習
+部数,ぶすう,busu,quantity,数量,普通名詞,数量,メディア
+物量,ぶつりょう,butsuryo,quantity,数量,普通名詞,数量,
+秒,びょう,byo,quantity,数量; romaji_used_by:廟,普通名詞,数量,
+秒速,びょうそく,byosoku,quantity,数量,普通名詞,数量,
+値,ち,chi,quantity,数量,普通名詞,数量,
+地価,ちか,chika,quantity,数量; romaji_used_by:地下,普通名詞,数量,ビジネス
+知名度,ちめいど,chimeido,quantity,数量,普通名詞,数量,
+潮位,ちょうい,choi,quantity,数量; romaji_used_by:弔慰,普通名詞,数量,
+直径,ちょっけい,chokkei,quantity,数量,普通名詞,数量,
+代価,だいか,daika,quantity,数量,普通名詞,数量,ビジネス
+打率,だりつ,daritsu,quantity,数量,普通名詞,数量,スポーツ
+打数,だすう,dasu,quantity,数量; romaji_used_by:出す,普通名詞,数量,スポーツ
+打点,だてん,daten,quantity,数量,普通名詞,数量,スポーツ
+出来高,できだか,dekidaka,quantity,数量,普通名詞,数量,ビジネス
+電位,でんい,deni,quantity,数量,普通名詞,数量,科学・技術
+度数,どすう,dosu,quantity,数量,普通名詞,数量,
+同点,どうてん,doten,quantity,数量,普通名詞,数量,スポーツ
+塩分,えんぶん,enbun,quantity,数量,普通名詞,数量,料理・食事
+遠距離,えんきょり,enkyori,quantity,数量,普通名詞,抽象物;数量,交通
+幅員,ふくいん,fukuin,quantity,数量; romaji_used_by:福音,普通名詞,数量,交通
+複数,ふくすう,fukusu,quantity,数量,普通名詞,数量,
+分速,ふんそく,funsoku,quantity,数量,普通名詞,数量,
+風速,ふうそく,fusoku,quantity,数量; romaji_used_by:不足,普通名詞,数量,
+沸点,ふってん,futten,quantity,数量,普通名詞,数量,科学・技術;教育・学習
+外径,がいけい,gaikei,quantity,数量; romaji_used_by:外形,普通名詞,数量,
+概数,がいすう,gaisu,quantity,数量,普通名詞,数量,
+額面,がくめん,gakumen,quantity,数量,普通名詞,数量,
+学齢,がくれい,gakurei,quantity,数量,普通名詞,数量,教育・学習
+減価,げんか,genka,quantity,数量; romaji_used_by:現下,普通名詞,数量,ビジネス
+月産,げっさん,gessan,quantity,数量,普通名詞,数量,ビジネス
+月額,げつがく,getsugaku,quantity,数量,普通名詞,数量,ビジネス
+月齢,げつれい,getsurei,quantity,数量,普通名詞,数量,
+五分,ごぶ,gobu,quantity,数量,普通名詞,数量,
+合計,ごうけい,gokei,quantity,数量,サ変名詞,数量,
+軍勢,ぐんぜい,gunzei,quantity,数量,普通名詞,数量,政治
+逆数,ぎゃくすう,gyakusu,quantity,数量,普通名詞,数量,教育・学習
+肺活量,はいかつりょう,haikatsuryo,quantity,数量,普通名詞,数量,健康・医学
+泊,はく,haku,quantity,数量; romaji_used_by:箔,普通名詞,数量,
+半,はん,han,quantity,数量,普通名詞,数量,
+半分,はんぶん,hanbun,quantity,数量,普通名詞,数量,
+半額,はんがく,hangaku,quantity,数量,普通名詞,数量,ビジネス
+半々,はんはん,hanhan,quantity,数量,普通名詞,数量,
+半径,はんけい,hankei,quantity,数量,普通名詞,数量,
+半値,はんね,hanne,quantity,数量,普通名詞,数量,ビジネス
+半音,はんおん,hanon,quantity,数量,普通名詞,数量,文化・芸術
+反比例,はんぴれい,hanpirei,quantity,数量,サ変名詞,数量,教育・学習
+半数,はんすう,hansu,quantity,数量,普通名詞,数量,
+端数,はすう,hasu,quantity,数量; romaji_used_by:蓮,普通名詞,数量,
+刃渡り,はわたり,hawatari,quantity,数量,普通名詞,抽象物;数量,
+平方,へいほう,heiho,quantity,数量,サ変名詞,数量,
+兵員,へいいん,heiin,quantity,数量,普通名詞,数量,政治
+平価,へいか,heika,quantity,数量; romaji_used_by:陛下,普通名詞,数量,ビジネス
+平熱,へいねつ,heinetsu,quantity,数量,普通名詞,数量,健康・医学
+偏差値,へんさち,hensachi,quantity,数量,普通名詞,数量,教育・学習
+比重,ひじゅう,hiju,quantity,数量,普通名詞,数量,
+飛距離,ひきょり,hikyori,quantity,数量,普通名詞,数量,スポーツ
+頻度,ひんど,hindo,quantity,数量,普通名詞,数量,
+比例,ひれい,hirei,quantity,数量,サ変名詞,数量,
+比率,ひりつ,hiritsu,quantity,数量,普通名詞,数量,科学・技術
+一撮み,ひとつまみ,hitotsumami,quantity,数量,普通名詞,数量,
+北緯,ほくい,hokui,quantity,数量,普通名詞,数量,
+本数,ほんすう,honsu,quantity,数量,普通名詞,数量,
+歩数,ほすう,hosu,quantity,数量; romaji_used_by:干す,普通名詞,数量,
+標高,ひょうこう,hyoko,quantity,数量,普通名詞,数量,
+表面積,ひょうめんせき,hyomenseki,quantity,数量,普通名詞,数量,
+氷点,ひょうてん,hyoten,quantity,数量,普通名詞,数量,科学・技術
+氷点下,ひょうてんか,hyotenka,quantity,数量,普通名詞,数量,
+一元,いちげん,ichigen,quantity,数量,普通名詞,数量,
+緯度,いど,ido,quantity,数量; romaji_used_by:井戸,普通名詞,数量,
+言い値,いいね,iine,quantity,数量,普通名詞,数量,ビジネス
+幾,いく,iku,quantity,数量; romaji_used_by:行く,普通名詞,数量,
+以内,いない,inai,quantity,数量,普通名詞,数量,
+地代,じだい,jidai,quantity,数量; romaji_used_by:時代,普通名詞,数量,家庭・暮らし;ビジネス
+自乗,じじょう,jijo,quantity,数量; romaji_used_by:侍女,サ変名詞,数量,教育・学習
+時価,じか,jika,quantity,数量; romaji_used_by:自家,普通名詞,数量,ビジネス
+人員,じんいん,jinin,quantity,数量,普通名詞,数量,
+人口,じんこう,jinko,quantity,数量,普通名詞,数量,
+時速,じそく,jisoku,quantity,数量,普通名詞,数量,交通
+実数,じっすう,jissu,quantity,数量,普通名詞,数量,教育・学習
+字数,じすう,jisu,quantity,数量,普通名詞,数量,
+純度,じゅんど,jundo,quantity,数量,普通名詞,数量,
+順列,じゅんれつ,junretsu,quantity,数量,普通名詞,数量,
+樹齢,じゅれい,jurei,quantity,数量,普通名詞,数量,
+重量,じゅうりょう,juryo,quantity,数量,普通名詞,数量,
+仮分数,かぶんすう,kabunsu,quantity,数量,普通名詞,数量,教育・学習
+過半,かはん,kahan,quantity,数量; romaji_used_by:河畔,普通名詞,数量,
+過半数,かはんすう,kahansu,quantity,数量,普通名詞,数量,
+回,かい,kai,quantity,数量; romaji_used_by:貝,普通名詞,数量,
+階,かい,kai,quantity,数量; romaji_used_by:貝,普通名詞,数量,
+海抜,かいばつ,kaibatsu,quantity,数量,普通名詞,数量,
+買い値,かいね,kaine,quantity,数量,普通名詞,数量,ビジネス
+海里,かいり,kairi,quantity,数量,普通名詞,数量,
+回数,かいすう,kaisu,quantity,数量,普通名詞,数量,
+解像度,かいぞうど,kaizodo,quantity,数量,普通名詞,数量,科学・技術
+掛け値,かけね,kakene,quantity,数量,普通名詞,数量,
+確度,かくど,kakudo,quantity,数量,普通名詞,数量,
+角度,かくど,kakudo,quantity,数量,普通名詞,数量,
+画数,かくすう,kakusu,quantity,数量; romaji_used_by:隠す,普通名詞,数量,教育・学習
+感度,かんど,kando,quantity,数量; romaji_used_by:間道,普通名詞,数量,
+巻数,かんすう,kansu,quantity,数量,普通名詞,数量,文化・芸術;メディア
+関数,かんすう,kansu,quantity,数量,普通名詞,数量,教育・学習
+嵩,かさ,kasa,quantity,数量; romaji_used_by:傘,普通名詞,数量,
+華氏,かし,kashi,quantity,数量; romaji_used_by:樫,普通名詞,数量,
+数え年,かぞえどし,kazoedoshi,quantity,数量,普通名詞,数量,
+数,かず,kazu,quantity,数量,普通名詞,数量,
+経度,けいど,keido,quantity,数量; romaji_used_by:軽度,普通名詞,数量,
+係数,けいすう,keisu,quantity,数量,普通名詞,数量,教育・学習;科学・技術
+件数,けんすう,kensu,quantity,数量,普通名詞,数量,
+桁,けた,keta,quantity,数量,普通名詞,数量,
+けた数,けたすう,ketasu,quantity,数量,普通名詞,数量,
+斤,きん,kin,quantity,数量,普通名詞,数量,料理・食事
+金額,きんがく,kingaku,quantity,数量,普通名詞,数量,ビジネス
+近距離,きんきょり,kinkyori,quantity,数量,普通名詞,抽象物;数量,交通
+気温,きおん,kion,quantity,数量,普通名詞,数量,
+機数,きすう,kisu,quantity,数量; romaji_used_by:鱚,普通名詞,数量,
+勾配,こうばい,kobai,quantity,数量; romaji_used_by:紅梅,普通名詞,数量,
+光度,こうど,kodo,quantity,数量; romaji_used_by:公道,普通名詞,数量,
+硬度,こうど,kodo,quantity,数量; romaji_used_by:公道,普通名詞,数量,
+高度,こうど,kodo,quantity,数量; romaji_used_by:公道,普通名詞,数量,
+口径,こうけい,kokei,quantity,数量; romaji_used_by:光景,普通名詞,数量,
+齣,こま,koma,quantity,数量; romaji_used_by:駒,普通名詞,数量,文化・芸術
+光年,こうねん,konen,quantity,数量; romaji_used_by:後年,普通名詞,数量,
+小売値,こうりね,korine,quantity,数量,普通名詞,数量,ビジネス
+効率,こうりつ,koritsu,quantity,数量; romaji_used_by:公立,普通名詞,数量,
+光速,こうそく,kosoku,quantity,数量; romaji_used_by:校則,普通名詞,数量,
+個数,こすう,kosu,quantity,数量; romaji_used_by:漉す,普通名詞,数量,
+戸数,こすう,kosu,quantity,数量; romaji_used_by:漉す,普通名詞,数量,家庭・暮らし
+巨万,きょまん,kyoman,quantity,数量,普通名詞,数量,
+享年,きょうねん,kyonen,quantity,数量; romaji_used_by:凶年,普通名詞,数量,健康・医学;家庭・暮らし
+距離,きょり,kyori,quantity,数量; romaji_used_by:郷里,普通名詞,抽象物;数量,
+球速,きゅうそく,kyusoku,quantity,数量; romaji_used_by:急速,普通名詞,数量,スポーツ
+間数,まかず,makazu,quantity,数量,普通名詞,数量,
+満点,まんてん,manten,quantity,数量; romaji_used_by:満点,普通名詞,数量,教育・学習
+升目,ますめ,masume,quantity,数量,普通名詞,数量,
+目分量,めぶんりょう,mebunryo,quantity,数量,普通名詞,数量,料理・食事
+名,めい,mei,quantity,数量; romaji_used_by:姪,普通名詞,抽象物;数量,
+明度,めいど,meido,quantity,数量; romaji_used_by:冥土,普通名詞,数量,
+目方,めかた,mekata,quantity,数量,普通名詞,数量,
+面積,めんせき,menseki,quantity,数量,普通名詞,数量,
+道のり,みちのり,michinori,quantity,数量,普通名詞,抽象物;数量,
+未満,みまん,miman,quantity,数量,普通名詞,数量,
+身の丈,みのたけ,minotake,quantity,数量,普通名詞,数量,
+密度,みつど,mitsudo,quantity,数量,普通名詞,数量,教育・学習
+水嵩,みずかさ,mizukasa,quantity,数量,普通名詞,数量,
+匁,もんめ,monme,quantity,数量,普通名詞,数量,
+元値,もとね,motone,quantity,数量,普通名詞,数量,ビジネス
+内径,ないけい,naikei,quantity,数量,普通名詞,数量,
+何遍,なんべん,nanben,quantity,数量,普通名詞,数量,
+何度,なんど,nando,quantity,数量; romaji_used_by:納戸,普通名詞,数量,
+南緯,なんい,nani,quantity,数量; romaji_used_by:何,普通名詞,数量,
+値段,ねだん,nedan,quantity,数量,普通名詞,数量,ビジネス
+値頃,ねごろ,negoro,quantity,数量,普通名詞,数量,ビジネス
+年額,ねんがく,nengaku,quantity,数量,普通名詞,数量,
+燃費,ねんぴ,nenpi,quantity,数量,普通名詞,数量,交通
+年齢,ねんれい,nenrei,quantity,数量,普通名詞,数量,
+年率,ねんりつ,nenritsu,quantity,数量,普通名詞,数量,ビジネス
+年産,ねんさん,nensan,quantity,数量,普通名詞,数量,ビジネス
+年商,ねんしょう,nensho,quantity,数量; romaji_used_by:年初,普通名詞,数量,ビジネス
+熱量,ねつりょう,netsuryo,quantity,数量,普通名詞,数量,健康・医学;科学・技術
+人数,にんずう,ninzu,quantity,数量,普通名詞,数量,
+日産,にっさん,nissan,quantity,数量,普通名詞,数量,
+日数,にっすう,nissu,quantity,数量,普通名詞,数量,
+濃度,のうど,nodo,quantity,数量; romaji_used_by:喉,普通名詞,数量,科学・技術
+温度,おんど,ondo,quantity,数量,普通名詞,数量,
+音量,おんりょう,onryo,quantity,数量,普通名詞,数量,
+音速,おんそく,onsoku,quantity,数量,普通名詞,数量,
+卸し値,おろしね,oroshine,quantity,数量,普通名詞,数量,ビジネス
+終値,おわりね,owarine,quantity,数量,普通名詞,数量,ビジネス
+利率,りりつ,riritsu,quantity,数量,普通名詞,数量,
+率,りつ,ritsu,quantity,数量,普通名詞,数量,
+量,りょう,ryo,quantity,数量,普通名詞,数量,
+料率,りょうりつ,ryoritsu,quantity,数量; romaji_used_by:両立,普通名詞,数量,ビジネス
+流量,りゅうりょう,ryuryo,quantity,数量,普通名詞,数量,
+彩度,さいど,saido,quantity,数量; romaji_used_by:再度,普通名詞,数量,
+歳入,さいにゅう,sainyu,quantity,数量,普通名詞,数量,政治
+歳出,さいしゅつ,saishutsu,quantity,数量,普通名詞,数量,政治
+参,さん,san,quantity,数量,普通名詞,抽象物;数量,
+産額,さんがく,sangaku,quantity,数量; romaji_used_by:山岳,普通名詞,数量,ビジネス
+差し金,さしがね,sashigane,quantity,数量,普通名詞,数量,
+冊数,さっすう,sassu,quantity,数量,普通名詞,数量,
+正比例,せいひれい,seihirei,quantity,数量,サ変名詞,数量,教育・学習
+西経,せいけい,seikei,quantity,数量; romaji_used_by:政経,普通名詞,数量,
+声量,せいりょう,seiryo,quantity,数量,普通名詞,数量,
+生産高,せいさんだか,seisandaka,quantity,数量,普通名詞,数量,ビジネス
+積,せき,seki,quantity,数量; romaji_used_by:席,普通名詞,抽象物;数量,
+積分,せきぶん,sekibun,quantity,数量,サ変名詞,数量,教育・学習
+セ氏,せし,seshi,quantity,数量,普通名詞,数量,
+摂氏,せっし,sesshi,quantity,数量,普通名詞,数量,
+背丈,せたけ,setake,quantity,数量,普通名詞,数量,
+勺,しゃく,shaku,quantity,数量; romaji_used_by:しゃく,普通名詞,数量,
+尺,しゃく,shaku,quantity,数量; romaji_used_by:しゃく,普通名詞,数量,
+市価,しか,shika,quantity,数量; romaji_used_by:鹿,普通名詞,数量,ビジネス
+品数,しなかず,shinakazu,quantity,数量,普通名詞,数量,
+真分数,しんぶんすう,shinbunsu,quantity,数量,普通名詞,数量,教育・学習
+身長,しんちょう,shincho,quantity,数量; romaji_used_by:新著,普通名詞,数量,健康・医学
+深度,しんど,shindo,quantity,数量; romaji_used_by:神童,普通名詞,数量,
+震度,しんど,shindo,quantity,数量; romaji_used_by:神童,普通名詞,数量,
+親等,しんとう,shinto,quantity,数量; romaji_used_by:信徒,普通名詞,数量,家庭・暮らし;政治
+指数,しすう,shisu,quantity,数量,普通名詞,数量,
+下値,したね,shitane,quantity,数量,普通名詞,数量,ビジネス
+湿度,しつど,shitsudo,quantity,数量,普通名詞,数量,
+室温,しつおん,shitsuon,quantity,数量,普通名詞,数量,
+質量,しつりょう,shitsuryo,quantity,数量; romaji_used_by:室料,普通名詞,数量,科学・技術
+升,しょう,sho,quantity,数量; romaji_used_by:笙,普通名詞,数量,
+少,しょう,sho,quantity,数量; romaji_used_by:笙,普通名詞,数量,
+照度,しょうど,shodo,quantity,数量; romaji_used_by:焦土,普通名詞,数量,科学・技術
+少人数,しょうにんずう,shoninzu,quantity,数量,普通名詞,数量,
+勝率,しょうりつ,shoritsu,quantity,数量,普通名詞,数量,スポーツ
+小差,しょうさ,shosa,quantity,数量; romaji_used_by:少佐,普通名詞,数量,
+小数,しょうすう,shosu,quantity,数量,普通名詞,数量,教育・学習
+少数,しょうすう,shosu,quantity,数量,普通名詞,数量,
+縮尺,しゅくしゃく,shukushaku,quantity,数量,サ変名詞,数量,
+収量,しゅうりょう,shuryo,quantity,数量; romaji_used_by:首領,普通名詞,数量,
+酒量,しゅりょう,shuryo,quantity,数量; romaji_used_by:首領,普通名詞,数量,料理・食事
+相場,そうば,soba,quantity,数量; romaji_used_by:蕎麦,普通名詞,数量,ビジネス
+総額,そうがく,sogaku,quantity,数量; romaji_used_by:奏楽,普通名詞,数量,
+総員,そういん,soin,quantity,数量,普通名詞,数量,
+総画,そうかく,sokaku,quantity,数量,普通名詞,数量,教育・学習
+総計,そうけい,sokei,quantity,数量,サ変名詞,数量,
+底値,そこね,sokone,quantity,数量,普通名詞,数量,ビジネス
+速度,そくど,sokudo,quantity,数量,普通名詞,数量,
+足囲,そくい,sokui,quantity,数量,普通名詞,数量,
+速力,そくりょく,sokuryoku,quantity,数量,普通名詞,数量,
+総量,そうりょう,soryo,quantity,数量; romaji_used_by:僧侶,普通名詞,数量,
+総数,そうすう,sosu,quantity,数量; romaji_used_by:素数,普通名詞,数量,
+外法,そとのり,sotonori,quantity,数量,普通名詞,数量,
+総和,そうわ,sowa,quantity,数量; romaji_used_by:挿話,普通名詞,数量,
+総勢,そうぜい,sozei,quantity,数量; romaji_used_by:租税,普通名詞,数量,
+数値,すうち,suchi,quantity,数量,普通名詞,数量,
+水温,すいおん,suion,quantity,数量,普通名詞,数量,
+水量,すいりょう,suiryo,quantity,数量,普通名詞,数量,
+水深,すいしん,suishin,quantity,数量,普通名詞,数量,
+数字,すうじ,suji,quantity,数量; romaji_used_by:筋,普通名詞,数量,
+寸分,すんぶん,sunbun,quantity,数量,普通名詞,数量,
+寸法,すんぽう,sunpo,quantity,数量,普通名詞,数量,
+数量,すうりょう,suryo,quantity,数量,普通名詞,数量,
+捨て値,すてね,sutene,quantity,数量,普通名詞,数量,ビジネス
+大部,たいぶ,taibu,quantity,数量; romaji_used_by:退部,普通名詞,数量,
+体長,たいちょう,taicho,quantity,数量; romaji_used_by:隊長,普通名詞,数量,
+大半,たいはん,taihan,quantity,数量,普通名詞,数量,
+体重,たいじゅう,taiju,quantity,数量; romaji_used_by:大樹,普通名詞,数量,健康・医学
+体温,たいおん,taion,quantity,数量,普通名詞,数量,健康・医学
+体積,たいせき,taiseki,quantity,数量,普通名詞,数量,
+多寡,たか,taka,quantity,数量; romaji_used_by:鷹,普通名詞,数量,
+丈,たけ,take,quantity,数量; romaji_used_by:岳,普通名詞,数量,
+単価,たんか,tanka,quantity,数量; romaji_used_by:担架,普通名詞,数量,ビジネス
+単数,たんすう,tansu,quantity,数量; romaji_used_by:箪笥,普通名詞,数量,
+多種,たしゅ,tashu,quantity,数量,普通名詞,数量,
+多数,たすう,tasu,quantity,数量; romaji_used_by:足す,普通名詞,数量,
+建坪,たてつぼ,tatetsubo,quantity,数量,普通名詞,数量,
+艇長,ていちょう,teicho,quantity,数量; romaji_used_by:丁重,普通名詞,数量,政治
+定員,ていいん,teiin,quantity,数量,普通名詞,数量,
+定価,ていか,teika,quantity,数量,普通名詞,数量,ビジネス
+底面積,ていめんせき,teimenseki,quantity,数量,普通名詞,数量,教育・学習
+低温,ていおん,teion,quantity,数量,普通名詞,数量,
+定量,ていりょう,teiryo,quantity,数量,普通名詞,数量,
+艇身,ていしん,teishin,quantity,数量,普通名詞,数量,交通
+定数,ていすう,teisu,quantity,数量,普通名詞,数量,教育・学習;科学・技術;政治
+適温,てきおん,tekion,quantity,数量,普通名詞,数量,
+適量,てきりょう,tekiryo,quantity,数量,普通名詞,数量,
+点差,てんさ,tensa,quantity,数量,普通名詞,数量,スポーツ
+点数,てんすう,tensu,quantity,数量,普通名詞,数量,教育・学習
+糖分,とうぶん,tobun,quantity,数量; romaji_used_by:等分,普通名詞,数量,料理・食事
+糖度,とうど,todo,quantity,数量; romaji_used_by:海馬,普通名詞,数量,料理・食事
+東経,とうけい,tokei,quantity,数量; romaji_used_by:時計,普通名詞,数量,
+特価,とっか,tokka,quantity,数量; romaji_used_by:特科,普通名詞,数量,ビジネス
+特大,とくだい,tokudai,quantity,数量,普通名詞,数量,
+取れ高,とれだか,toredaka,quantity,数量,普通名詞,数量,
+坪,つぼ,tsubo,quantity,数量; romaji_used_by:壺,普通名詞,数量,
+内高,うちだか,uchidaka,quantity,数量,普通名詞,数量,
+内法,うちのり,uchinori,quantity,数量,普通名詞,数量,
+雲量,うんりょう,unryo,quantity,数量,普通名詞,数量,
+売上,うりあげ,uriage,quantity,数量,普通名詞,数量,ビジネス
+売上高,うりあげだか,uriagedaka,quantity,数量,普通名詞,数量,ビジネス
+売り値,うりね,urine,quantity,数量,普通名詞,数量,ビジネス
+雨量,うりょう,uryo,quantity,数量,普通名詞,数量,
+上値,うわね,uwane,quantity,数量,普通名詞,数量,ビジネス
+薬価,やっか,yakka,quantity,数量,普通名詞,数量,健康・医学
+安値,やすね,yasune,quantity,数量,普通名詞,数量,ビジネス
+横幅,よこはば,yokohaba,quantity,数量,普通名詞,数量,
+翼長,よくちょう,yokucho,quantity,数量,普通名詞,数量,
+容量,ようりょう,yoryo,quantity,数量; romaji_used_by:要領,普通名詞,数量,
+用量,ようりょう,yoryo,quantity,数量; romaji_used_by:要領,普通名詞,数量,
+容積,ようせき,yoseki,quantity,数量,普通名詞,数量,
+寄せ手,よせて,yosete,quantity,数量,普通名詞,数量,
+床面積,ゆかめんせき,yukamenseki,quantity,数量,普通名詞,数量,
+座標,ざひょう,zahyo,quantity,数量,普通名詞,数量,教育・学習
+座高,ざこう,zako,quantity,数量; romaji_used_by:雑魚,普通名詞,数量,
+残高,ざんだか,zandaka,quantity,数量,普通名詞,数量,ビジネス
+残額,ざんがく,zangaku,quantity,数量,普通名詞,数量,家庭・暮らし;ビジネス
+税額,ぜいがく,zeigaku,quantity,数量,普通名詞,数量,政治
+税率,ぜいりつ,zeiritsu,quantity,数量,普通名詞,数量,ビジネス;政治
+全長,ぜんちょう,zencho,quantity,数量; romaji_used_by:前兆,普通名詞,数量,
+全額,ぜんがく,zengaku,quantity,数量,普通名詞,数量,
+全音,ぜんおん,zenon,quantity,数量,普通名詞,数量,文化・芸術
+全量,ぜんりょう,zenryo,quantity,数量; romaji_used_by:善良,普通名詞,数量,
+暴く,あばく,abaku,sensitive_check,暴,動詞,,
+暴れん坊,あばれんぼう,abarenbo,sensitive_check,暴,普通名詞,人,家庭・暮らし
+暴れる,あばれる,abareru,sensitive_check,暴,動詞,,
+愛人,あいじん,aijin,sensitive_check,愛人,普通名詞,人,家庭・暮らし
+呆れ顔,あきれがお,akiregao,sensitive_check,呆,普通名詞,抽象物,
+呆れる,あきれる,akireru,sensitive_check,呆,動詞,,
+悪魔,あくま,akuma,sensitive_check,悪魔,普通名詞,人,
+悪霊,あくりょう,akuryo,sensitive_check,悪霊,普通名詞,抽象物,文化・芸術
+悪臭,あくしゅう,akushu,sensitive_check,臭; romaji_used_by:握手,普通名詞,抽象物,家庭・暮らし
+浅墓,あさはか,asahaka,sensitive_check,墓,ナ形容詞,,
+博打,ばくち,bakuchi,sensitive_check,博打,普通名詞,抽象物,レクリエーション
+爆竹,ばくちく,bakuchiku,sensitive_check,爆,普通名詞,人工物-その他,
+爆弾,ばくだん,bakudan,sensitive_check,爆,普通名詞,人工物-その他,政治
+爆心,ばくしん,bakushin,sensitive_check,爆,普通名詞,場所-その他,科学・技術
+爆薬,ばくやく,bakuyaku,sensitive_check,爆,普通名詞,人工物-その他,科学・技術;政治
+番狂わせ,ばんくるわせ,bankuruwase,sensitive_check,狂,普通名詞,抽象物,スポーツ
+貧乏,びんぼう,binbo,sensitive_check,貧,ナ形容詞,,
+墓地,ぼち,bochi,sensitive_check,墓,普通名詞,場所-その他,家庭・暮らし
+防犯,ぼうはん,bohan,sensitive_check,犯,普通名詞,抽象物,家庭・暮らし;政治
+墓碑,ぼひ,bohi,sensitive_check,墓,普通名詞,人工物-その他,文化・芸術
+暴飲暴食,ぼういんぼうしょく,boinboshoku,sensitive_check,暴,サ変名詞,抽象物,料理・食事
+暴漢,ぼうかん,bokan,sensitive_check,暴; romaji_used_by:母艦,普通名詞,人,政治
+墓穴,ぼけつ,boketsu,sensitive_check,墓,普通名詞,場所-その他,
+暴君,ぼうくん,bokun,sensitive_check,暴,普通名詞,人,政治
+墓参,ぼさん,bosan,sensitive_check,墓; romaji_used_by:坊さん,サ変名詞,抽象物,文化・芸術
+防戦,ぼうせん,bosen,sensitive_check,戦; romaji_used_by:母船,サ変名詞,抽象物,スポーツ
+母胎,ぼたい,botai,sensitive_check,胎; romaji_used_by:母体,普通名詞,場所-その他,健康・医学
+暴徒,ぼうと,boto,sensitive_check,暴,普通名詞,人,政治
+暴投,ぼうとう,boto,sensitive_check,暴,サ変名詞,抽象物,スポーツ
+墓前,ぼぜん,bozen,sensitive_check,墓,普通名詞,場所-その他,文化・芸術
+病後,びょうご,byogo,sensitive_check,病,時相名詞,時間,健康・医学
+病院,びょういん,byoin,sensitive_check,病,普通名詞,場所-施設,健康・医学
+病弱,びょうじゃく,byojaku,sensitive_check,病,ナ形容詞,,
+病欠,びょうけつ,byoketsu,sensitive_check,病,サ変名詞,抽象物,教育・学習;ビジネス
+病魔,びょうま,byoma,sensitive_check,病,普通名詞,人,健康・医学
+病人,びょうにん,byonin,sensitive_check,病,普通名詞,人,健康・医学
+病者,びょうしゃ,byosha,sensitive_check,病; romaji_used_by:描写,普通名詞,人,健康・医学
+病身,びょうしん,byoshin,sensitive_check,病; romaji_used_by:秒針,普通名詞,動物,健康・医学
+病室,びょうしつ,byoshitsu,sensitive_check,病,普通名詞,場所-施設,健康・医学
+病巣,びょうそう,byoso,sensitive_check,病,普通名詞,動物-部位,健康・医学
+病棟,びょうとう,byoto,sensitive_check,病,普通名詞,場所-施設,健康・医学
+血,ち,chi,sensitive_check,血,普通名詞,自然物,健康・医学
+乳,ちち,chichi,sensitive_check,乳; romaji_used_by:父,普通名詞,自然物,料理・食事
+血だらけ,ちだらけ,chidarake,sensitive_check,血,ナ形容詞,,
+血豆,ちまめ,chimame,sensitive_check,血,普通名詞,動物-部位,健康・医学
+血塗れ,ちまみれ,chimamire,sensitive_check,血,ナ形容詞,,
+血眼,ちまなこ,chimanako,sensitive_check,血,普通名詞,動物-部位,
+血道,ちみち,chimichi,sensitive_check,血,普通名詞,動物-部位;抽象物,健康・医学
+血みどろ,ちみどろ,chimidoro,sensitive_check,血,ナ形容詞,,
+血の気,ちのけ,chinoke,sensitive_check,血,普通名詞,抽象物,
+沈痛,ちんつう,chintsu,sensitive_check,痛,ナ形容詞,,
+血潮,ちしお,chishio,sensitive_check,血,普通名詞,動物-部位;自然物,
+血筋,ちすじ,chisuji,sensitive_check,血,普通名詞,抽象物,健康・医学;家庭・暮らし
+中絶,ちゅうぜつ,chuzetsu,sensitive_check,中絶,サ変名詞,抽象物,健康・医学;家庭・暮らし
+唾液,だえき,daeki,sensitive_check,唾,普通名詞,自然物,健康・医学
+騙す,だます,damasu,sensitive_check,騙,動詞,,
+毒気,どっけ,dokke,sensitive_check,毒,普通名詞,自然物;抽象物,
+毒,どく,doku,sensitive_check,毒; romaji_used_by:どく,普通名詞,人工物-その他,
+独房,どくぼう,dokubo,sensitive_check,独房,普通名詞,場所-施設,政治
+毒物,どくぶつ,dokubutsu,sensitive_check,毒,普通名詞,人工物-その他,健康・医学
+毒血,どくち,dokuchi,sensitive_check,毒,普通名詞,自然物,
+毒見,どくみ,dokumi,sensitive_check,毒,サ変名詞,抽象物,料理・食事
+毒虫,どくむし,dokumushi,sensitive_check,毒,普通名詞,動物,
+髑髏,どくろ,dokuro,sensitive_check,髑髏,普通名詞,動物-部位,
+毒素,どくそ,dokuso,sensitive_check,毒; romaji_used_by:独奏,普通名詞,自然物,健康・医学
+毒薬,どくやく,dokuyaku,sensitive_check,毒,普通名詞,人工物-その他,健康・医学
+泥棒,どろぼう,dorobo,sensitive_check,泥棒,サ変名詞,人;抽象物,
+土葬,どそう,doso,sensitive_check,葬; romaji_used_by:同窓,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+衛兵,えいへい,eihei,sensitive_check,兵,普通名詞,人,政治
+伏兵,ふくへい,fukuhei,sensitive_check,兵,普通名詞,人,政治
+服喪,ふくも,fukumo,sensitive_check,喪,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+副葬,ふくそう,fukuso,sensitive_check,葬,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+不倫,ふりん,furin,sensitive_check,不倫; romaji_used_by:風鈴,ナ形容詞,,家庭・暮らし
+封殺,ふうさつ,fusatsu,sensitive_check,殺,サ変名詞,抽象物,スポーツ
+不戦敗,ふせんぱい,fusenpai,sensitive_check,戦,普通名詞,抽象物,スポーツ
+不戦勝,ふせんしょう,fusensho,sensitive_check,戦,普通名詞,抽象物,スポーツ
+不死鳥,ふしちょう,fushicho,sensitive_check,死,普通名詞,動物,
+害毒,がいどく,gaidoku,sensitive_check,毒,普通名詞,人工物-その他,
+骸骨,がいこつ,gaikotsu,sensitive_check,骸,普通名詞,動物-部位,
+原爆,げんばく,genbaku,sensitive_check,爆,普通名詞,人工物-その他,政治
+原水爆,げんすいばく,gensuibaku,sensitive_check,爆,普通名詞,人工物-その他,政治
+獄,ごく,goku,sensitive_check,獄,普通名詞,場所-施設,
+獄中,ごくちゅう,gokuchu,sensitive_check,獄,普通名詞,場所-その他,政治
+強盗,ごうとう,goto,sensitive_check,強盗,サ変名詞,人,政治
+愚直,ぐちょく,guchoku,sensitive_check,愚,ナ形容詞,,
+愚民,ぐみん,gumin,sensitive_check,愚,普通名詞,人,政治
+愚者,ぐしゃ,gusha,sensitive_check,愚,普通名詞,人,
+裸,はだか,hadaka,sensitive_check,裸,普通名詞,抽象物,
+裸馬,はだかうま,hadakauma,sensitive_check,裸,普通名詞,動物,
+禿げる,はげる,hageru,sensitive_check,禿; romaji_used_by:剥げる,動詞,,健康・医学
+禿鷹,はげたか,hagetaka,sensitive_check,禿,普通名詞,動物,
+禿鷲,はげわし,hagewashi,sensitive_check,禿,普通名詞,動物,
+敗戦,はいせん,haisen,sensitive_check,戦; romaji_used_by:廃船,サ変名詞,抽象物,スポーツ
+墓,はか,haka,sensitive_check,墓,普通名詞,場所-その他,科学・技術;文化・芸術
+墓場,はかば,hakaba,sensitive_check,墓,普通名詞,場所-その他,家庭・暮らし;文化・芸術
+墓石,はかいし,hakaishi,sensitive_check,墓,普通名詞,自然物,家庭・暮らし;文化・芸術
+墓参り,はかまいり,hakamairi,sensitive_check,墓,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+白血球,はっけっきゅう,hakkekkyu,sensitive_check,血,普通名詞,動物-部位,健康・医学
+白人,はくじん,hakujin,sensitive_check,白人,普通名詞,人,
+鼻血,はなぢ,hanaji,sensitive_check,血,普通名詞,自然物,健康・医学
+犯人,はんにん,hannin,sensitive_check,犯,普通名詞,人,政治
+兵,へい,hei,sensitive_check,兵; romaji_used_by:塀,普通名詞,人,政治
+兵器,へいき,heiki,sensitive_check,兵; romaji_used_by:平気,普通名詞,人工物-その他,政治
+併殺,へいさつ,heisatsu,sensitive_check,殺,サ変名詞,抽象物,スポーツ
+兵舎,へいしゃ,heisha,sensitive_check,兵; romaji_used_by:弊社,普通名詞,場所-施設,政治
+兵士,へいし,heishi,sensitive_check,兵; romaji_used_by:平氏,普通名詞,人,政治
+兵卒,へいそつ,heisotsu,sensitive_check,兵,普通名詞,人,政治
+兵隊,へいたい,heitai,sensitive_check,兵,普通名詞,人,政治
+兵站,へいたん,heitan,sensitive_check,兵; romaji_used_by:平坦,普通名詞,組織・団体,政治
+変人,へんじん,henjin,sensitive_check,変人,普通名詞,人,
+火縄銃,ひなわじゅう,hinawaju,sensitive_check,銃,普通名詞,人工物-その他,
+貧打,ひんだ,hinda,sensitive_check,貧,普通名詞,抽象物,スポーツ
+貧者,ひんじゃ,hinja,sensitive_check,貧,普通名詞,人,
+貧弱,ひんじゃく,hinjaku,sensitive_check,貧,ナ形容詞,,
+貧困,ひんこん,hinkon,sensitive_check,貧,ナ形容詞,,
+貧農,ひんのう,hinno,sensitive_check,貧,普通名詞,人,
+貧相,ひんそう,hinso,sensitive_check,貧,ナ形容詞,,
+必死,ひっし,hisshi,sensitive_check,死; romaji_used_by:必至,ナ形容詞,,
+悲痛,ひつう,hitsu,sensitive_check,痛,ナ形容詞,,
+棺,ひつぎ,hitsugi,sensitive_check,棺,普通名詞,人工物-その他,文化・芸術
+歩兵,ほへい,hohei,sensitive_check,兵,普通名詞,人,政治
+葬る,ほうむる,homuru,sensitive_check,葬,動詞,,文化・芸術;家庭・暮らし
+本葬,ほんそう,honso,sensitive_check,葬,普通名詞,抽象物,文化・芸術;家庭・暮らし
+星屑,ほしくず,hoshikuzu,sensitive_check,屑,普通名詞,自然物,
+兵糧,ひょうろう,hyoro,sensitive_check,兵,普通名詞,人工物-食べ物,料理・食事;政治
+遺影,いえい,iei,sensitive_check,遺影,普通名詞,人工物-その他;抽象物,
+遺骸,いがい,igai,sensitive_check,骸; romaji_used_by:意外,普通名詞,動物,
+遺骨,いこつ,ikotsu,sensitive_check,遺骨,普通名詞,抽象物,文化・芸術;家庭・暮らし
+戦,いくさ,ikusa,sensitive_check,戦,普通名詞,抽象物,
+遺書,いしょ,isho,sensitive_check,遺書; romaji_used_by:衣装,普通名詞,抽象物,家庭・暮らし
+異臭,いしゅう,ishu,sensitive_check,臭,普通名詞,抽象物,家庭・暮らし
+痛い,いたい,itai,sensitive_check,痛,イ形容詞,,
+痛ましい,いたましい,itamashii,sensitive_check,痛,イ形容詞,,
+痛み止め,いたみどめ,itamidome,sensitive_check,痛,普通名詞,人工物-その他,健康・医学
+痛み分け,いたみわけ,itamiwake,sensitive_check,痛,普通名詞,抽象物,スポーツ
+遺族,いぞく,izoku,sensitive_check,遺族,普通名詞,組織・団体,文化・芸術;家庭・暮らし;政治
+地獄,じごく,jigoku,sensitive_check,地獄,普通名詞,場所-その他,
+陣痛,じんつう,jintsu,sensitive_check,痛,普通名詞,抽象物,健康・医学;家庭・暮らし
+じり貧,じりひん,jirihin,sensitive_check,貧,普通名詞,抽象物,家庭・暮らし;ビジネス
+銃弾,じゅうだん,judan,sensitive_check,銃,普通名詞,人工物-その他,政治
+銃後,じゅうご,jugo,sensitive_check,銃,普通名詞,場所-その他,政治
+銃砲,じゅうほう,juho,sensitive_check,銃,普通名詞,人工物-その他,政治
+銃剣,じゅうけん,juken,sensitive_check,銃; romaji_used_by:受験,普通名詞,人工物-その他,政治
+銃器,じゅうき,juki,sensitive_check,銃; romaji_used_by:重機,普通名詞,人工物-その他,政治
+銃口,じゅうこう,juko,sensitive_check,銃; romaji_used_by:住戸,普通名詞,人工物-その他,政治
+殉教,じゅんきょう,junkyo,sensitive_check,殉,サ変名詞,抽象物,文化・芸術
+殉難,じゅんなん,junnan,sensitive_check,殉,サ変名詞,抽象物,文化・芸術;政治
+銃身,じゅうしん,jushin,sensitive_check,銃; romaji_used_by:重臣,普通名詞,人工物-その他,政治
+銃刀,じゅうとう,juto,sensitive_check,銃,普通名詞,人工物-その他,政治
+返り血,かえりち,kaerichi,sensitive_check,血,普通名詞,自然物,
+海兵,かいへい,kaihei,sensitive_check,兵,普通名詞,人,政治
+懐妊,かいにん,kainin,sensitive_check,妊,サ変名詞,抽象物,家庭・暮らし
+会葬,かいそう,kaiso,sensitive_check,葬; romaji_used_by:海藻,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+賭け金,かけきん,kakekin,sensitive_check,賭; romaji_used_by:掛け金,普通名詞,人工物-金銭,レクリエーション
+賭ける,かける,kakeru,sensitive_check,賭; romaji_used_by:掛ける,動詞,,レクリエーション
+紙屑,かみくず,kamikuzu,sensitive_check,屑,普通名詞,人工物-その他,
+看病,かんびょう,kanbyo,sensitive_check,病,サ変名詞,抽象物,健康・医学;家庭・暮らし
+監獄,かんごく,kangoku,sensitive_check,獄,普通名詞,場所-施設,政治
+冠婚葬祭,かんこんそうさい,kankonsosai,sensitive_check,葬,普通名詞,抽象物,文化・芸術;家庭・暮らし
+棺桶,かんおけ,kanoke,sensitive_check,棺,普通名詞,人工物-その他,文化・芸術;家庭・暮らし
+観戦,かんせん,kansen,sensitive_check,戦; romaji_used_by:艦船,サ変名詞,抽象物,スポーツ
+火葬,かそう,kaso,sensitive_check,葬; romaji_used_by:下層,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+騙る,かたる,kataru,sensitive_check,騙; romaji_used_by:語る,動詞,,
+固唾,かたず,katazu,sensitive_check,唾,普通名詞,自然物,
+刑事,けいじ,keiji,sensitive_check,刑; romaji_used_by:啓示,普通名詞,人,政治
+刑期,けいき,keiki,sensitive_check,刑; romaji_used_by:計器,時相名詞,時間,政治
+刑務所,けいむしょ,keimusho,sensitive_check,刑,普通名詞,場所-施設,政治
+血管,けっかん,kekkan,sensitive_check,血,普通名詞,動物-部位,健康・医学
+血球,けっきゅう,kekkyu,sensitive_check,血,普通名詞,動物-部位,健康・医学
+拳銃,けんじゅう,kenju,sensitive_check,銃,普通名詞,人工物-その他,政治
+憲兵,けんぺい,kenpei,sensitive_check,兵,普通名詞,人,政治
+血清,けっせい,kessei,sensitive_check,血,普通名詞,自然物,健康・医学
+血漿,けっしょう,kessho,sensitive_check,血; romaji_used_by:決勝,普通名詞,自然物,健康・医学
+血小板,けっしょうばん,kesshoban,sensitive_check,血,普通名詞,自然物,健康・医学
+血液,けつえき,ketsueki,sensitive_check,血,普通名詞,自然物,健康・医学
+血液型,けつえきがた,ketsuekigata,sensitive_check,血,普通名詞,抽象物,健康・医学;家庭・暮らし
+血縁,けつえん,ketsuen,sensitive_check,血,普通名詞,抽象物,家庭・暮らし
+血税,けつぜい,ketsuzei,sensitive_check,血,普通名詞,人工物-金銭,政治
+血族,けつぞく,ketsuzoku,sensitive_check,血,普通名詞,組織・団体,家庭・暮らし
+血統,けっとう,ketto,sensitive_check,血,普通名詞,抽象物,家庭・暮らし
+騎兵,きへい,kihei,sensitive_check,兵,普通名詞,人,政治
+奇人,きじん,kijin,sensitive_check,奇人,普通名詞,人,
+機銃,きじゅう,kiju,sensitive_check,銃; romaji_used_by:喜寿,普通名詞,人工物-その他,政治
+木屑,きくず,kikuzu,sensitive_check,屑,普通名詞,人工物-その他,
+気の毒,きのどく,kinodoku,sensitive_check,毒,ナ形容詞,,
+棋戦,きせん,kisen,sensitive_check,戦; romaji_used_by:汽船,普通名詞,抽象物,レクリエーション;スポーツ
+鉱毒,こうどく,kodoku,sensitive_check,毒; romaji_used_by:孤独,普通名詞,人工物-その他,健康・医学
+工兵,こうへい,kohei,sensitive_check,兵; romaji_used_by:公平,普通名詞,人,政治
+小兵,こひょう,kohyo,sensitive_check,兵,普通名詞,人,
+黒人,こくじん,kokujin,sensitive_check,黒人,普通名詞,人,
+混戦,こんせん,konsen,sensitive_check,戦,普通名詞,抽象物,スポーツ
+古戦場,こせんじょう,kosenjo,sensitive_check,戦,普通名詞,場所-その他,
+狂う,くるう,kuruu,sensitive_check,狂,動詞,,
+臭い,くさい,kusai,sensitive_check,臭,イ形容詞,,
+苦戦,くせん,kusen,sensitive_check,戦,サ変名詞,抽象物,スポーツ;政治
+凶暴,きょうぼう,kyobo,sensitive_check,暴,ナ形容詞,,
+狂暴,きょうぼう,kyobo,sensitive_check,狂,ナ形容詞,,
+狂言,きょうげん,kyogen,sensitive_check,狂,普通名詞,抽象物,文化・芸術
+狂歌,きょうか,kyoka,sensitive_check,狂; romaji_used_by:教科,普通名詞,抽象物,文化・芸術
+狂信,きょうしん,kyoshin,sensitive_check,狂; romaji_used_by:虚心,サ変名詞,抽象物,文化・芸術
+狂想曲,きょうそうきょく,kyosokyoku,sensitive_check,狂; romaji_used_by:協奏曲,普通名詞,抽象物,文化・芸術
+埋葬,まいそう,maiso,sensitive_check,葬,サ変名詞,抽象物,家庭・暮らし;文化・芸術
+呪い,まじない,majinai,sensitive_check,呪,普通名詞,抽象物,文化・芸術;家庭・暮らし
+貧しい,まずしい,mazushii,sensitive_check,貧,イ形容詞,,
+目尻,めじり,mejiri,sensitive_check,尻,普通名詞,動物-部位,
+未亡人,みぼうじん,mibojin,sensitive_check,未亡人,普通名詞,人,家庭・暮らし
+醜い,みにくい,minikui,sensitive_check,醜,イ形容詞,,
+民兵,みんぺい,minpei,sensitive_check,兵,普通名詞,組織・団体,政治
+密葬,みっそう,misso,sensitive_check,葬,サ変名詞,抽象物,文化・芸術;家庭・暮らし
+盲腸,もうちょう,mocho,sensitive_check,盲,普通名詞,動物-部位,健康・医学
+喪中,もちゅう,mochu,sensitive_check,喪,時相名詞,抽象物,文化・芸術;家庭・暮らし
+盲導犬,もうどうけん,modoken,sensitive_check,盲,普通名詞,動物,家庭・暮らし
+猛毒,もうどく,modoku,sensitive_check,毒,普通名詞,人工物-その他;抽象物,健康・医学
+喪服,もふく,mofuku,sensitive_check,喪,普通名詞,人工物-衣類,家庭・暮らし
+盲人,もうじん,mojin,sensitive_check,盲,普通名詞,人,
+木棺,もっかん,mokkan,sensitive_check,棺; romaji_used_by:木管,普通名詞,人工物-その他,
+木棺墓,もくかんぼ,mokukanbo,sensitive_check,棺,普通名詞,場所-施設,
+藻屑,もくず,mokuzu,sensitive_check,屑,普通名詞,植物-部位,
+盲目,もうもく,momoku,sensitive_check,盲,ナ形容詞,,
+喪章,もしょう,mosho,sensitive_check,喪; romaji_used_by:猛暑,普通名詞,人工物-その他,文化・芸術;家庭・暮らし
+喪主,もしゅ,moshu,sensitive_check,喪,普通名詞,人,文化・芸術;家庭・暮らし
+無毒,むどく,mudoku,sensitive_check,毒,ナ形容詞,,
+骸,むくろ,mukuro,sensitive_check,骸,普通名詞,動物-部位,
+無能,むのう,muno,sensitive_check,無能,ナ形容詞,,
+無死,むし,mushi,sensitive_check,死; romaji_used_by:虫,普通名詞,抽象物,スポーツ
+殴り書き,なぐりがき,nagurigaki,sensitive_check,殴,サ変名詞,抽象物,
+殴る,なぐる,naguru,sensitive_check,殴,動詞,,
+亡き後,なきあと,nakiato,sensitive_check,亡き,時相名詞,時間,
+亡き骸,なきがら,nakigara,sensitive_check,亡き,普通名詞,動物,家庭・暮らし;文化・芸術
+亡き人,なきひと,nakihito,sensitive_check,亡き,普通名詞,人,
+南蛮,なんばん,nanban,sensitive_check,蛮,普通名詞,場所-その他,料理・食事
+熱戦,ねっせん,nessen,sensitive_check,戦; romaji_used_by:熱線,普通名詞,抽象物,スポーツ
+妊婦,にんぷ,ninpu,sensitive_check,妊,普通名詞,人,家庭・暮らし
+妊産婦,にんさんぷ,ninsanpu,sensitive_check,妊,普通名詞,人,健康・医学
+妊娠,にんしん,ninshin,sensitive_check,妊,サ変名詞,抽象物,健康・医学;家庭・暮らし
+臭う,におう,niou,sensitive_check,臭; romaji_used_by:匂う,動詞,,
+飲ん兵衛,のんべえ,nonbee,sensitive_check,兵,普通名詞,抽象物,料理・食事
+呪う,のろう,norou,sensitive_check,呪,動詞,,
+盗み聞き,ぬすみぎき,nusumigiki,sensitive_check,盗,サ変名詞,抽象物,
+盗む,ぬすむ,nusumu,sensitive_check,盗,動詞,,
+盗人,ぬすっと,nusutto,sensitive_check,盗,普通名詞,人,政治
+盗人,ぬすっと,nusutto,sensitive_check,盗,普通名詞,人,政治
+横暴,おうぼう,obo,sensitive_check,暴; romaji_used_by:応募,ナ形容詞,,
+犯す,おかす,okasu,sensitive_check,犯; romaji_used_by:侵す,動詞,,政治
+臆病,おくびょう,okubyo,sensitive_check,病,ナ形容詞,,
+音痴,おんち,onchi,sensitive_check,痴,普通名詞,抽象物,文化・芸術
+愚か,おろか,oroka,sensitive_check,愚,ナ形容詞,,
+乱暴,らんぼう,ranbo,sensitive_check,暴,ナ形容詞,,
+卵巣,らんそう,ranso,sensitive_check,卵巣,普通名詞,動物-部位,健康・医学
+冷血,れいけつ,reiketsu,sensitive_check,血,ナ形容詞,,
+霊柩車,れいきゅうしゃ,reikyusha,sensitive_check,霊柩,普通名詞,人工物-乗り物,文化・芸術;家庭・暮らし;交通
+連戦,れんせん,rensen,sensitive_check,戦,サ変名詞,抽象物,スポーツ
+力戦,りきせん,rikisen,sensitive_check,戦,サ変名詞,抽象物,スポーツ
+離婚,りこん,rikon,sensitive_check,離婚,サ変名詞,抽象物,家庭・暮らし
+老婆,ろうば,roba,sensitive_check,老婆; romaji_used_by:驢馬,普通名詞,人,
+牢獄,ろうごく,rogoku,sensitive_check,獄,普通名詞,場所-施設,政治
+猟銃,りょうじゅう,ryoju,sensitive_check,銃,普通名詞,人工物-その他,
+最貧国,さいひんこく,saihinkoku,sensitive_check,貧,普通名詞,場所-その他,政治
+再戦,さいせん,saisen,sensitive_check,戦; romaji_used_by:賽銭,サ変名詞,抽象物,スポーツ
+散弾銃,さんだんじゅう,sandanju,sensitive_check,銃,普通名詞,人工物-その他,政治
+参戦,さんせん,sansen,sensitive_check,戦,サ変名詞,抽象物,スポーツ;政治
+殺陣,さつじん,satsujin,sensitive_check,殺,普通名詞,抽象物,文化・芸術
+聖戦,せいせん,seisen,sensitive_check,戦; romaji_used_by:清泉,普通名詞,抽象物,文化・芸術
+石棺,せっかん,sekkan,sensitive_check,棺,普通名詞,人工物-その他,
+赤血球,せっけっきゅう,sekkekkyu,sensitive_check,血,普通名詞,動物-部位,健康・医学
+戦地,せんち,senchi,sensitive_check,戦,普通名詞,場所-その他,政治
+戦中,せんちゅう,senchu,sensitive_check,戦; romaji_used_by:線虫,普通名詞,時間,政治
+戦後,せんご,sengo,sensitive_check,戦,時相名詞,時間,
+戦域,せんいき,seniki,sensitive_check,戦,普通名詞,場所-その他,政治
+戦時,せんじ,senji,sensitive_check,戦,時相名詞,時間,
+戦場,せんじょう,senjo,sensitive_check,戦; romaji_used_by:船上,普通名詞,場所-その他,政治
+戦術,せんじゅつ,senjutsu,sensitive_check,戦,普通名詞,抽象物,スポーツ;ビジネス
+戦艦,せんかん,senkan,sensitive_check,戦; romaji_used_by:選管,普通名詞,人工物-乗り物,政治
+戦記,せんき,senki,sensitive_check,戦,普通名詞,抽象物,文化・芸術
+戦敗,せんぱい,senpai,sensitive_check,戦; romaji_used_by:先輩,普通名詞,抽象物,スポーツ
+戦犯,せんぱん,senpan,sensitive_check,戦; romaji_used_by:先般,普通名詞,人,政治
+先兵,せんぺい,senpei,sensitive_check,兵,普通名詞,人,政治
+戦費,せんぴ,senpi,sensitive_check,戦,普通名詞,人工物-金銭,政治
+戦法,せんぽう,senpo,sensitive_check,戦; romaji_used_by:先方,普通名詞,抽象物,スポーツ;ビジネス;政治
+戦列,せんれつ,senretsu,sensitive_check,戦; romaji_used_by:鮮烈,普通名詞,形・模様,スポーツ
+戦力,せんりょく,senryoku,sensitive_check,戦,普通名詞,抽象物,スポーツ;ビジネス;政治
+戦績,せんせき,senseki,sensitive_check,戦; romaji_used_by:船籍,普通名詞,抽象物,スポーツ
+戦跡,せんせき,senseki,sensitive_check,戦; romaji_used_by:船籍,普通名詞,場所-その他,政治
+戦車,せんしゃ,sensha,sensitive_check,戦; romaji_used_by:洗車,普通名詞,人工物-乗り物,政治
+戦士,せんし,senshi,sensitive_check,戦,普通名詞,人,
+戦友,せんゆう,senyu,sensitive_check,戦,普通名詞,人,
+戦前,せんぜん,senzen,sensitive_check,戦,時相名詞,時間,政治
+接戦,せっせん,sessen,sensitive_check,戦,サ変名詞,抽象物,スポーツ
+借金,しゃっきん,shakkin,sensitive_check,借金,サ変名詞,人工物-金銭,家庭・暮らし;ビジネス
+社葬,しゃそう,shaso,sensitive_check,葬; romaji_used_by:車窓,普通名詞,抽象物,文化・芸術;ビジネス
+死後,しご,shigo,sensitive_check,死,普通名詞,時間,
+死語,しご,shigo,sensitive_check,死,普通名詞,抽象物,教育・学習
+死角,しかく,shikaku,sensitive_check,死; romaji_used_by:刺客,普通名詞,場所-その他,
+死期,しき,shiki,sensitive_check,死; romaji_used_by:四季,普通名詞,時間,家庭・暮らし
+子宮,しきゅう,shikyu,sensitive_check,子宮; romaji_used_by:四球,普通名詞,動物-部位,健康・医学
+死球,しきゅう,shikyu,sensitive_check,死; romaji_used_by:四球,普通名詞,抽象物,スポーツ
+心中,しんじゅう,shinju,sensitive_check,心中; romaji_used_by:真珠,サ変名詞,抽象物,家庭・暮らし
+尻尾,しっぽ,shippo,sensitive_check,尻,普通名詞,動物-部位,
+尻,しり,shiri,sensitive_check,尻,普通名詞,動物-部位,
+尻上がり,しりあがり,shiriagari,sensitive_check,尻,普通名詞,抽象物,
+尻込み,しりごみ,shirigomi,sensitive_check,尻,サ変名詞,抽象物,
+尻拭い,しりぬぐい,shirinugui,sensitive_check,尻,サ変名詞,抽象物,
+尻抜け,しりぬけ,shirinuke,sensitive_check,尻,普通名詞,抽象物,
+尻窄み,しりすぼみ,shirisubomi,sensitive_check,尻,ナ形容詞,,
+尻取り,しりとり,shiritori,sensitive_check,尻,普通名詞,抽象物,レクリエーション
+四死球,ししきゅう,shishikyu,sensitive_check,死,普通名詞,抽象物,スポーツ
+将兵,しょうへい,shohei,sensitive_check,兵,普通名詞,人,政治
+小銃,しょうじゅう,shoju,sensitive_check,銃,普通名詞,人工物-その他,政治
+初戦,しょせん,shosen,sensitive_check,戦; romaji_used_by:商船,普通名詞,抽象物,スポーツ
+醜悪,しゅうあく,shuaku,sensitive_check,醜,ナ形容詞,,
+主犯,しゅはん,shuhan,sensitive_check,犯,普通名詞,人,政治
+囚人,しゅうじん,shujin,sensitive_check,囚; romaji_used_by:主人,普通名詞,人,政治
+主戦,しゅせん,shusen,sensitive_check,戦,普通名詞,抽象物,スポーツ
+粗暴,そぼう,sobo,sensitive_check,暴; romaji_used_by:祖母,ナ形容詞,,
+葬儀,そうぎ,sogi,sensitive_check,葬,普通名詞,抽象物,文化・芸術;家庭・暮らし
+葬礼,そうれい,sorei,sensitive_check,葬; romaji_used_by:祖霊,普通名詞,抽象物,文化・芸術;家庭・暮らし
+葬式,そうしき,soshiki,sensitive_check,葬; romaji_used_by:組織,普通名詞,抽象物,文化・芸術;家庭・暮らし
+葬送,そうそう,soso,sensitive_check,葬; romaji_used_by:早々,普通名詞,抽象物,文化・芸術;家庭・暮らし
+水爆,すいばく,suibaku,sensitive_check,爆,普通名詞,人工物-その他,政治
+水兵,すいへい,suihei,sensitive_check,兵; romaji_used_by:水平,普通名詞,人,政治
+胎盤,たいばん,taiban,sensitive_check,胎,普通名詞,動物-部位,健康・医学
+体罰,たいばつ,taibatsu,sensitive_check,体罰,普通名詞,抽象物,家庭・暮らし;教育・学習
+胎児,たいじ,taiji,sensitive_check,胎,普通名詞,人,健康・医学
+胎内,たいない,tainai,sensitive_check,胎,普通名詞,動物-部位,健康・医学
+対戦,たいせん,taisen,sensitive_check,戦,サ変名詞,抽象物,スポーツ
+短銃,たんじゅう,tanju,sensitive_check,銃; romaji_used_by:胆汁,普通名詞,人工物-その他,政治
+戦う,たたかう,tatakau,sensitive_check,戦,動詞,,
+天皇,てんのう,tenno,sensitive_check,天皇,普通名詞,人,政治
+盗品,とうひん,tohin,sensitive_check,盗,普通名詞,人工物-その他,政治
+頓狂,とんきょう,tonkyo,sensitive_check,狂,ナ形容詞,,
+盗る,とる,toru,sensitive_check,盗; romaji_used_by:通る,動詞,,
+盗塁,とうるい,torui,sensitive_check,盗,サ変名詞,抽象物,スポーツ
+盗作,とうさく,tosaku,sensitive_check,盗,サ変名詞,抽象物,文化・芸術
+屠蘇,とそ,toso,sensitive_check,屠; romaji_used_by:逃走,普通名詞,人工物-食べ物,料理・食事
+盗賊,とうぞく,tozoku,sensitive_check,盗,普通名詞,組織・団体,
+唾,つば,tsuba,sensitive_check,唾,普通名詞,自然物,
+痛打,つうだ,tsuda,sensitive_check,痛,サ変名詞,抽象物,スポーツ
+痛快,つうかい,tsukai,sensitive_check,痛,ナ形容詞,,
+罪,つみ,tsumi,sensitive_check,罪,普通名詞,抽象物,
+痛烈,つうれつ,tsuretsu,sensitive_check,痛,ナ形容詞,,
+痛切,つうせつ,tsusetsu,sensitive_check,痛,ナ形容詞,,
+嘘吐き,うそつき,usotsuki,sensitive_check,嘘,普通名詞,抽象物,
+浮気,うわき,uwaki,sensitive_check,浮気,ナ形容詞,,家庭・暮らし
+野蛮,やばん,yaban,sensitive_check,蛮,ナ形容詞,,
+矢尻,やじり,yajiri,sensitive_check,尻,普通名詞,人工物-その他,
+弥次郎兵衛,やじろべえ,yajirobee,sensitive_check,兵,普通名詞,人工物-その他,レクリエーション
+病,やまい,yamai,sensitive_check,病,普通名詞,抽象物,
+病垂れ,やまいだれ,yamaidare,sensitive_check,病,普通名詞,抽象物,教育・学習
+病める,やめる,yameru,sensitive_check,病; romaji_used_by:止める,動詞,,健康・医学
+病み付き,やみつき,yamitsuki,sensitive_check,病,普通名詞,抽象物,
+病む,やむ,yamu,sensitive_check,病; romaji_used_by:止む,動詞,,健康・医学
+横殴り,よこなぐり,yokonaguri,sensitive_check,殴,普通名詞,抽象物,
+有毒,ゆうどく,yudoku,sensitive_check,毒,ナ形容詞,,
+遺言,ゆいごん,yuigon,sensitive_check,遺言,サ変名詞,抽象物,家庭・暮らし
+雪合戦,ゆきがっせん,yukigassen,sensitive_check,戦,普通名詞,抽象物,レクリエーション
+罪人,ざいにん,zainin,sensitive_check,罪,普通名詞,人,政治
+残骸,ざんがい,zangai,sensitive_check,骸,普通名詞,人工物-その他,
+前立腺,ぜんりつせん,zenritsusen,sensitive_check,前立腺,普通名詞,動物-部位,健康・医学
+善戦,ぜんせん,zensen,sensitive_check,戦; romaji_used_by:全線,サ変名詞,抽象物,スポーツ
+前哨戦,ぜんしょうせん,zenshosen,sensitive_check,戦,普通名詞,抽象物,スポーツ
+晩,ばん,ban,short_on_reading,ban; romaji_used_by:晩,時相名詞,時間,
+盤,ばん,ban,short_on_reading,ban; romaji_used_by:晩,普通名詞,人工物-その他,
+便,びん,bin,short_on_reading,bin; romaji_used_by:瓶,普通名詞,抽象物,交通
+瓶,びん,bin,short_on_reading,bin; romaji_used_by:瓶,普通名詞,人工物-その他,
+盆,ぼん,bon,short_on_reading,bon; romaji_used_by:盆,普通名詞,人工物-その他,文化・芸術;料理・食事
+茶,ちゃ,cha,short_on_reading,cha; romaji_used_by:茶,普通名詞,人工物-食べ物,料理・食事
+地,ち,chi,short_on_reading,chi,普通名詞,場所-その他,
+著,ちょ,cho,short_on_reading,cho; romaji_used_by:蝶,普通名詞,抽象物,文化・芸術
+帳,ちょう,cho,short_on_reading,cho; romaji_used_by:蝶,普通名詞,人工物-その他,
+庁,ちょう,cho,short_on_reading,cho; romaji_used_by:蝶,普通名詞,組織・団体;場所-施設,政治
+腸,ちょう,cho,short_on_reading,cho; romaji_used_by:蝶,普通名詞,動物-部位,健康・医学
+長,ちょう,cho,short_on_reading,cho; romaji_used_by:蝶,普通名詞,人,
+宙,ちゅう,chu,short_on_reading,chu,普通名詞,場所-その他,
+駐,ちゅう,chu,short_on_reading,chu,普通名詞,抽象物,交通
+代,だい,dai,short_on_reading,dai; romaji_used_by:台,普通名詞,時間,
+台,だい,dai,short_on_reading,dai; romaji_used_by:台,普通名詞,人工物-その他,
+団,だん,dan,short_on_reading,dan; romaji_used_by:段,普通名詞,組織・団体,
+壇,だん,dan,short_on_reading,dan; romaji_used_by:段,普通名詞,人工物-その他,
+段,だん,dan,short_on_reading,dan; romaji_used_by:段,普通名詞,場所-機能;数量,
+液,えき,eki,short_on_reading,eki; romaji_used_by:駅,普通名詞,自然物,
+駅,えき,eki,short_on_reading,eki; romaji_used_by:駅,普通名詞,場所-施設,交通
+眼,がん,gan,short_on_reading,gan; romaji_used_by:雁,普通名詞,動物-部位,
+芸,げい,gei,short_on_reading,gei; romaji_used_by:芸,普通名詞,抽象物,文化・芸術
+弦,げん,gen,short_on_reading,gen,普通名詞,人工物-その他,
+銀,ぎん,gin,short_on_reading,gin; romaji_used_by:銀,普通名詞,自然物,
+軍,ぐん,gun,short_on_reading,gun,普通名詞,組織・団体,政治
+郡,ぐん,gun,short_on_reading,gun,普通名詞,組織・団体;場所-その他,
+肺,はい,hai,short_on_reading,hai; romaji_used_by:灰,普通名詞,動物-部位,健康・医学
+判,はん,han,short_on_reading,han,普通名詞,人工物-その他,
+版,はん,han,short_on_reading,han,普通名詞,人工物-その他;数量,文化・芸術;メディア
+藩,はん,han,short_on_reading,han,普通名詞,組織・団体,政治
+塀,へい,hei,short_on_reading,hei; romaji_used_by:塀,普通名詞,場所-施設部位,
+偏,へん,hen,short_on_reading,hen; romaji_used_by:変,普通名詞,抽象物,教育・学習
+辺,へん,hen,short_on_reading,hen; romaji_used_by:変,普通名詞,形・模様,
+本,ほん,hon,short_on_reading,hon; romaji_used_by:本,普通名詞,人工物-その他;抽象物,
+票,ひょう,hyo,short_on_reading,hyo; romaji_used_by:豹,普通名詞,人工物-その他,
+域,いき,iki,short_on_reading,iki; romaji_used_by:息,普通名詞,場所-機能,
+陣,じん,jin,short_on_reading,jin,普通名詞,場所-その他;抽象物,
+巻,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,人工物-その他;抽象物;数量,
+漢,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,人,
+環,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,形・模様,
+缶,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,人工物-その他,
+艦,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,人工物-乗り物,政治
+館,かん,kan,short_on_reading,kan; romaji_used_by:缶,普通名詞,場所-施設,
+径,けい,kei,short_on_reading,kei; romaji_used_by:罫,普通名詞,場所-その他,
+券,けん,ken,short_on_reading,ken; romaji_used_by:剣,普通名詞,人工物-その他,
+剣,けん,ken,short_on_reading,ken; romaji_used_by:剣,普通名詞,人工物-その他,
+圏,けん,ken,short_on_reading,ken; romaji_used_by:剣,普通名詞,場所-その他,
+県,けん,ken,short_on_reading,ken; romaji_used_by:剣,普通名詞,組織・団体;場所-その他,政治
+菌,きん,kin,short_on_reading,kin,普通名詞,動物,健康・医学
+婚,こん,kon,short_on_reading,kon; romaji_used_by:紺,普通名詞,抽象物,家庭・暮らし
+紺,こん,kon,short_on_reading,kon; romaji_used_by:紺,普通名詞,色,
+京,きょう,kyo,short_on_reading,kyo; romaji_used_by:卿,普通名詞,場所-施設,政治
+峡,きょう,kyo,short_on_reading,kyo; romaji_used_by:卿,普通名詞,場所-自然,
+教,きょう,kyo,short_on_reading,kyo; romaji_used_by:卿,普通名詞,抽象物,文化・芸術
+経,きょう,kyo,short_on_reading,kyo; romaji_used_by:卿,普通名詞,抽象物,文化・芸術
+給,きゅう,kyu,short_on_reading,kyu; romaji_used_by:急,普通名詞,人工物-金銭;抽象物,
+明,めい,mei,short_on_reading,mei; romaji_used_by:姪,普通名詞,抽象物;色,
+紋,もん,mon,short_on_reading,mon; romaji_used_by:門,普通名詞,抽象物,文化・芸術
+門,もん,mon,short_on_reading,mon; romaji_used_by:門,普通名詞,場所-施設,
+欄,らん,ran,short_on_reading,ran; romaji_used_by:蘭,普通名詞,人工物-その他,
+霊,れい,rei,short_on_reading,rei,普通名詞,抽象物,文化・芸術
+輪,りん,rin,short_on_reading,rin; romaji_used_by:輪,普通名詞,人工物-その他,
+塁,るい,rui,short_on_reading,rui,普通名詞,場所-その他,スポーツ
+寮,りょう,ryo,short_on_reading,ryo,普通名詞,場所-施設,
+料,りょう,ryo,short_on_reading,ryo,普通名詞,人工物-金銭,
+領,りょう,ryo,short_on_reading,ryo,普通名詞,場所-その他,
+竜,りゅう,ryu,short_on_reading,ryu; romaji_used_by:竜,普通名詞,動物,
+債,さい,sai,short_on_reading,sai; romaji_used_by:犀,普通名詞,人工物-金銭,ビジネス
+菜,さい,sai,short_on_reading,sai; romaji_used_by:犀,普通名詞,植物;人工物-食べ物,
+際,さい,sai,short_on_reading,sai; romaji_used_by:犀,普通名詞,時間,
+桟,さん,san,short_on_reading,san,普通名詞,場所-施設部位,
+酸,さん,san,short_on_reading,san,普通名詞,自然物,
+栓,せん,sen,short_on_reading,sen; romaji_used_by:線,普通名詞,人工物-その他,
+線,せん,sen,short_on_reading,sen; romaji_used_by:線,普通名詞,形・模様,
+斜,しゃ,sha,short_on_reading,sha,普通名詞,形・模様,
+舎,しゃ,sha,short_on_reading,sha,普通名詞,場所-施設,
+史,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,人工物-その他;抽象物,
+士,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,人,
+子,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,人,
+市,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,組織・団体;場所-その他,政治
+師,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,人,
+詞,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,抽象物,文化・芸術;教育・学習
+詩,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,抽象物,文化・芸術
+誌,し,shi,short_on_reading,shi; romaji_used_by:市,普通名詞,人工物-その他,文化・芸術;メディア
+署,しょ,sho,short_on_reading,sho; romaji_used_by:笙,普通名詞,場所-施設,政治
+省,しょう,sho,short_on_reading,sho; romaji_used_by:笙,普通名詞,組織・団体;場所-その他,政治
+礁,しょう,sho,short_on_reading,sho; romaji_used_by:笙,普通名詞,自然物,
+朱,しゅ,shu,short_on_reading,shu; romaji_used_by:週,普通名詞,色,
+周,しゅう,shu,short_on_reading,shu; romaji_used_by:週,普通名詞,場所-機能,
+州,しゅう,shu,short_on_reading,shu; romaji_used_by:週,普通名詞,組織・団体;場所-その他,政治
+衆,しゅう,shu,short_on_reading,shu; romaji_used_by:週,普通名詞,組織・団体,
+週,しゅう,shu,short_on_reading,shu; romaji_used_by:週,時相名詞,時間,
+隊,たい,tai,short_on_reading,tai; romaji_used_by:鯛,普通名詞,組織・団体,
+艇,てい,tei,short_on_reading,tei,普通名詞,人工物-乗り物,交通
+邸,てい,tei,short_on_reading,tei,普通名詞,場所-施設,
+天,てん,ten,short_on_reading,ten; romaji_used_by:天,普通名詞,場所-自然,
+点,てん,ten,short_on_reading,ten; romaji_used_by:天,普通名詞,形・模様,
+湾,わん,wan,short_on_reading,wan; romaji_used_by:椀,普通名詞,場所-自然,
+剤,ざい,zai,short_on_reading,zai,普通名詞,人工物-その他,健康・医学
+材,ざい,zai,short_on_reading,zai,普通名詞,人工物-その他,
+財,ざい,zai,short_on_reading,zai,普通名詞,人工物-金銭,
+税,ぜい,zei,short_on_reading,zei,普通名詞,人工物-金銭,政治
+禅,ぜん,zen,short_on_reading,zen; romaji_used_by:膳,普通名詞,抽象物,文化・芸術
+髄,ずい,zui,short_on_reading,zui,普通名詞,動物-部位,健康・医学

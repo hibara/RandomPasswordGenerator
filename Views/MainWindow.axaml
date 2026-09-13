@@ -1,0 +1,432 @@
+<shadui:Window xmlns="https://github.com/avaloniaui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+               xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+               xmlns:shadui="clr-namespace:ShadUI;assembly=ShadUI"
+               xmlns:vm="using:RandomPasswordGenerator.ViewModels"
+               xmlns:m="using:RandomPasswordGenerator.Models"
+               xmlns:res="using:RandomPasswordGenerator.Resources"
+               mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="560"
+               x:Class="RandomPasswordGenerator.Views.MainWindow"
+               x:DataType="vm:MainWindowViewModel"
+               Title="{x:Static res:Strings.WindowTitle}"
+               TitleFontWeight="SemiBold"
+               Icon="/Assets/icon.ico"
+               Width="900" Height="560"
+               MinWidth="600" MinHeight="420"
+               SaveWindowState="True">
+    <!-- WindowStartupLocation はコードビハインドで決める（保存済みの位置があれば復元、無ければ画面中央） -->
+
+    <shadui:Window.LogoContent>
+        <Image Source="/Assets/icon.png" Width="16" Height="16" Margin="8,0,0,0" />
+    </shadui:Window.LogoContent>
+
+    <shadui:Window.Resources>
+        <!--
+            Assets/refresh.svg の path と polygon を 1 つのジオメトリにまとめたもの。viewBox 0 0 512 512。
+            先頭の F1 は NonZero 塗り規則。既定の EvenOdd だと弧と矢印が重なる部分が抜けて白く欠ける。
+        -->
+        <StreamGeometry x:Key="RefreshIcon">F1 M267.48,382.92a130,130,0,0,1-19-1.41L238,379.94,241.13,359l10.45,1.57A105.76,105.76,0,1,0,184,321.26l6.52,8.32-16.63,13-6.52-8.32a125.72,125.72,0,0,1-25.65-97.06C152,168,216.77,120.15,286,130.48a126.92,126.92,0,0,1-18.48,252.44Z M179.34,347.4L117.86,328.34L124.11,308.15L175.51,324.08L191.01,274.08L211.2,280.34L192.57,340.44Z</StreamGeometry>
+    </shadui:Window.Resources>
+
+    <shadui:Window.Styles>
+        <!-- パスワードの文字種ごとの色（旧 style.css の number / symbol / uppercase / lowercase） -->
+        <Style Selector="TextBlock.PasswordChar">
+            <Setter Property="FontFamily" Value="{StaticResource PasswordFont}" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="Foreground" Value="{DynamicResource ForegroundColor}" />
+        </Style>
+        <Style Selector="TextBlock.PasswordChar.Lowercase">
+            <Setter Property="Opacity" Value="0.8" />
+        </Style>
+        <Style Selector="TextBlock.PasswordChar.Digit">
+            <Setter Property="Foreground" Value="{DynamicResource InfoColor}" />
+        </Style>
+        <Style Selector="TextBlock.PasswordChar.Symbol">
+            <Setter Property="Foreground" Value="{DynamicResource ErrorColor}" />
+        </Style>
+
+        <!-- 1 区画分のセル。奇数番目は薄い背景（旧 nth-child(odd)） -->
+        <Style Selector="Border.Cell">
+            <Setter Property="Padding" Value="4,8,4,6" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+        <Style Selector="Border.Cell.Odd">
+            <Setter Property="Background" Value="{DynamicResource BorderColor30}" />
+        </Style>
+
+        <!--
+            スライダーを掴みやすいように大きくする（ShadUI 既定: つまみ 16px、トラック 6px）。
+            テンプレート内で Width/Height が直接指定されていてスタイルでは上書きできないため、
+            RenderTransform で拡大する（ヒットテストも変形後の見た目に追従する）。
+        -->
+        <Style Selector="Slider.Big /template/ Thumb#Thumb">
+            <Setter Property="RenderTransform" Value="scale(1.75)" />
+        </Style>
+        <Style Selector="Slider.Big /template/ Thumb#Thumb:pressed">
+            <Setter Property="RenderTransform" Value="scale(1.65)" />
+        </Style>
+        <Style Selector="Slider.Big /template/ RepeatButton /template/ Border#TrackBackground">
+            <Setter Property="RenderTransform" Value="scaleY(2)" />
+        </Style>
+
+        <!-- スライダー右の数値。大事な数字なので大きく -->
+        <Style Selector="TextBlock.SliderValue">
+            <Setter Property="Width" Value="44" />
+            <Setter Property="Margin" Value="4,0,0,0" />
+            <Setter Property="TextAlignment" Value="Left" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="30" />
+            <Setter Property="FontWeight" Value="Bold" />
+        </Style>
+
+        <!-- 強度メーター。スコアに応じて色を変える -->
+        <Style Selector="ProgressBar.Strength">
+            <Setter Property="Minimum" Value="0" />
+            <Setter Property="Maximum" Value="1" />
+            <Setter Property="Height" Value="10" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Foreground" Value="{DynamicResource SuccessColor}" />
+            <Setter Property="Template">
+                <ControlTemplate>
+                    <Border Background="{DynamicResource BorderColor30}"
+                            CornerRadius="5"
+                            ClipToBounds="True">
+                        <Border Name="PART_Indicator"
+                                HorizontalAlignment="Left"
+                                CornerRadius="5"
+                                Background="{TemplateBinding Foreground}">
+                            <Border.Transitions>
+                                <Transitions>
+                                    <BrushTransition Property="Background" Duration="0:0:0.2" />
+                                </Transitions>
+                            </Border.Transitions>
+                        </Border>
+                    </Border>
+                </ControlTemplate>
+            </Setter>
+        </Style>
+        <Style Selector="ProgressBar.Strength.Weak">
+            <Setter Property="Foreground" Value="{DynamicResource ErrorColor}" />
+        </Style>
+        <Style Selector="ProgressBar.Strength.Fair">
+            <Setter Property="Foreground" Value="{DynamicResource WarningColor}" />
+        </Style>
+        <Style Selector="ProgressBar.Strength.Good">
+            <Setter Property="Foreground" Value="{DynamicResource InfoColor}" />
+        </Style>
+        <Style Selector="ProgressBar.Strength.Strong">
+            <Setter Property="Foreground" Value="{DynamicResource SuccessColor}" />
+        </Style>
+
+        <!-- 更新ボタン（小）。各方式の 2 行目の左端に置く -->
+        <Style Selector="Button.Refresh">
+            <Setter Property="Width" Value="34" />
+            <Setter Property="Height" Value="34" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Margin" Value="0,0,8,0" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+        </Style>
+
+        <!-- 履歴の行。ボタンなのでクリックでもキーボード（Enter / Space）でも再コピーできる。空行は無効 -->
+        <Style Selector="Button.HistoryRow">
+            <Setter Property="Height" Value="40" />
+            <Setter Property="Padding" Value="8,0" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="BorderBrush" Value="{DynamicResource BorderColor30}" />
+            <Setter Property="BorderThickness" Value="0,0,0,1" />
+            <Setter Property="CornerRadius" Value="{DynamicResource SmCornerRadius}" />
+            <Setter Property="FontWeight" Value="Normal" />
+        </Style>
+        <Style Selector="Button.HistoryRow:pointerover">
+            <Setter Property="Background" Value="{DynamicResource GhostHoverColor50}" />
+        </Style>
+        <Style Selector="Button.HistoryRow:disabled">
+            <!-- 空行は無効だが、番号を薄くしたくないので不透明のまま -->
+            <Setter Property="Opacity" Value="1" />
+        </Style>
+        <Style Selector="Button.HistoryRow TextBlock.HistoryText">
+            <Setter Property="FontFamily" Value="{StaticResource PasswordFont}" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontSize" Value="18" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="TextTrimming" Value="CharacterEllipsis" />
+        </Style>
+
+        <!-- 生成方式のタブ。中身は持たず、選択だけに使う -->
+        <Style Selector="TabControl.ModeTabs TabItem">
+            <Setter Property="FontSize" Value="15" />
+        </Style>
+
+        <!-- クリックでコピーできる領域 -->
+        <Style Selector="Border#PasswordArea">
+            <Setter Property="Cursor" Value="Hand" />
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="CornerRadius" Value="{DynamicResource MdCornerRadius}" />
+            <Setter Property="Transitions">
+                <Transitions>
+                    <BrushTransition Property="Background" Duration="0:0:0.15" />
+                </Transitions>
+            </Setter>
+        </Style>
+        <Style Selector="Border#PasswordArea:pointerover">
+            <Setter Property="Background" Value="{DynamicResource GhostHoverColor50}" />
+        </Style>
+    </shadui:Window.Styles>
+
+    <Panel>
+        <DockPanel Margin="16" LastChildFill="True">
+
+            <!-- 上段: 生成方式（ランダムなパスワード / 覚えやすいパスワード / 暗証番号） -->
+            <TabControl DockPanel.Dock="Top"
+                        Classes="ModeTabs"
+                        Margin="0,0,0,8"
+                        SelectedIndex="{Binding ModeIndex}">
+                <TabItem Header="{x:Static res:Strings.ModeRandom}" />
+                <TabItem Header="{x:Static res:Strings.ModePassphrase}" />
+                <TabItem Header="{x:Static res:Strings.ModePin}" />
+                <TabItem Header="{x:Static res:Strings.ModeHistory}" />
+            </TabControl>
+
+            <!-- 下段: 方式ごとの条件。2 行目の左端に更新ボタン -->
+            <StackPanel DockPanel.Dock="Bottom" Margin="0,12,0,0" Spacing="12">
+
+                <!-- ランダムなパスワード -->
+                <StackPanel Spacing="12" IsVisible="{Binding IsRandomMode}">
+                    <Grid ColumnDefinitions="Auto,*,Auto,Auto,Auto">
+                        <TextBlock Grid.Column="0" Text="{x:Static res:Strings.Length}" VerticalAlignment="Center" />
+                        <!-- Padding は拡大したつまみが両端で欠けないための内側余白 -->
+                        <Slider Grid.Column="1" Classes="Big" Margin="8,0,0,0" Padding="8,0" VerticalAlignment="Center"
+                                Minimum="{Binding MinLength}" Maximum="{Binding MaxLength}" Value="{Binding Length}"
+                                TickFrequency="1" IsSnapToTickEnabled="True" />
+                        <TextBlock Grid.Column="2" Classes="SliderValue" Text="{Binding Length}" />
+                        <Button Grid.Column="3" Margin="16,0,0,0" Classes="Primary"
+                                Content="{x:Static res:Strings.Generate}" Command="{Binding GenerateCommand}" IsDefault="True" />
+                        <Button Grid.Column="4" Margin="8,0,0,0" Classes="Outline"
+                                Content="{x:Static res:Strings.Copy}" Command="{Binding CopyCommand}" />
+                    </Grid>
+                    <!-- 文字種。選択中が残り 1 つになったものは外せない -->
+                    <StackPanel Orientation="Horizontal" Spacing="20">
+                        <Button Classes="Outline Refresh" Command="{Binding GenerateCommand}" ToolTip.Tip="{x:Static res:Strings.Regenerate}">
+                            <PathIcon Data="{StaticResource RefreshIcon}" Width="26" Height="26" />
+                        </Button>
+                        <CheckBox Content="{x:Static res:Strings.IncludeUppercase}" IsChecked="{Binding IncludeUppercase}" IsEnabled="{Binding CanToggleUppercase}" />
+                        <CheckBox Content="{x:Static res:Strings.IncludeLowercase}" IsChecked="{Binding IncludeLowercase}" IsEnabled="{Binding CanToggleLowercase}" />
+                        <CheckBox Content="{x:Static res:Strings.IncludeDigits}" IsChecked="{Binding IncludeDigits}" IsEnabled="{Binding CanToggleDigits}" />
+                        <CheckBox Content="{x:Static res:Strings.IncludeSymbols}" IsChecked="{Binding IncludeSymbols}" IsEnabled="{Binding CanToggleSymbols}" />
+                        <CheckBox Content="{x:Static res:Strings.OmitConfusing}" IsChecked="{Binding OmitConfusing}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- 覚えやすいパスワード -->
+                <StackPanel Spacing="12" IsVisible="{Binding IsPassphraseMode}">
+                    <Grid ColumnDefinitions="Auto,*,Auto,Auto,Auto">
+                        <TextBlock Grid.Column="0" Text="{x:Static res:Strings.WordCount}" VerticalAlignment="Center" />
+                        <Slider Grid.Column="1" Classes="Big" Margin="8,0,0,0" Padding="8,0" VerticalAlignment="Center"
+                                Minimum="{Binding MinWordCount}" Maximum="{Binding MaxWordCount}" Value="{Binding WordCount}"
+                                TickFrequency="1" IsSnapToTickEnabled="True" />
+                        <TextBlock Grid.Column="2" Classes="SliderValue" Text="{Binding WordCount}" />
+                        <Button Grid.Column="3" Margin="16,0,0,0" Classes="Primary"
+                                Content="{x:Static res:Strings.Generate}" Command="{Binding GenerateCommand}" IsDefault="True" />
+                        <Button Grid.Column="4" Margin="8,0,0,0" Classes="Outline"
+                                Content="{x:Static res:Strings.Copy}" Command="{Binding CopyCommand}" />
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" Spacing="20">
+                        <Button Classes="Outline Refresh" Command="{Binding GenerateCommand}" ToolTip.Tip="{x:Static res:Strings.Regenerate}">
+                            <PathIcon Data="{StaticResource RefreshIcon}" Width="26" Height="26" />
+                        </Button>
+                        <StackPanel Orientation="Horizontal" Spacing="8">
+                            <TextBlock Text="{x:Static res:Strings.Separator}" VerticalAlignment="Center" />
+                            <ComboBox MinWidth="220"
+                                      ItemsSource="{Binding Separators}"
+                                      SelectedItem="{Binding SelectedSeparator}" />
+                        </StackPanel>
+                        <CheckBox Content="{x:Static res:Strings.IncludeUppercase}" IsChecked="{Binding PassphraseUppercase}" IsEnabled="{Binding CanTogglePassphraseUppercase}" />
+                        <CheckBox Content="{x:Static res:Strings.IncludeLowercase}" IsChecked="{Binding PassphraseLowercase}" IsEnabled="{Binding CanTogglePassphraseLowercase}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- 履歴 -->
+                <StackPanel Spacing="12" IsVisible="{Binding IsHistoryMode}">
+                    <Grid ColumnDefinitions="Auto,*,Auto,Auto">
+                        <TextBlock Grid.Column="0" Text="{x:Static res:Strings.HistoryCapacity}" VerticalAlignment="Center" />
+                        <Slider Grid.Column="1" Classes="Big" Margin="8,0,0,0" Padding="8,0" VerticalAlignment="Center"
+                                Minimum="{Binding MinHistoryCapacityValue}" Maximum="{Binding MaxHistoryCapacityValue}" Value="{Binding HistoryCapacity}"
+                                TickFrequency="1" IsSnapToTickEnabled="True" />
+                        <TextBlock Grid.Column="2" Classes="SliderValue" Text="{Binding HistoryCapacity}" />
+                        <Button Grid.Column="3" Margin="16,0,0,0" Classes="Outline"
+                                Content="{x:Static res:Strings.HistoryClear}" Command="{Binding ClearHistoryCommand}" />
+                    </Grid>
+                    <StackPanel Orientation="Horizontal" Spacing="20">
+                        <ToggleSwitch IsChecked="{Binding HistoryEnabled}"
+                                      OnContent="{x:Static res:Strings.HistoryEnabled}"
+                                      OffContent="{x:Static res:Strings.HistoryEnabled}" />
+                        <TextBlock Classes="Muted" VerticalAlignment="Center"
+                                   Text="{x:Static res:Strings.HistoryDisabledHint}"
+                                   IsVisible="{Binding !HistoryEnabled}" />
+                        <TextBlock Classes="Muted" VerticalAlignment="Center"
+                                   Text="{x:Static res:Strings.HistoryHint}"
+                                   IsVisible="{Binding HistoryEnabled}" />
+                    </StackPanel>
+                </StackPanel>
+
+                <!-- 暗証番号 -->
+                <StackPanel Spacing="12" IsVisible="{Binding IsPinMode}">
+                    <Grid ColumnDefinitions="Auto,*,Auto,Auto,Auto">
+                        <TextBlock Grid.Column="0" Text="{x:Static res:Strings.PinLength}" VerticalAlignment="Center" />
+                        <Slider Grid.Column="1" Classes="Big" Margin="8,0,0,0" Padding="8,0" VerticalAlignment="Center"
+                                Minimum="{Binding MinPinLength}" Maximum="{Binding MaxPinLength}" Value="{Binding PinLength}"
+                                TickFrequency="1" IsSnapToTickEnabled="True" />
+                        <TextBlock Grid.Column="2" Classes="SliderValue" Text="{Binding PinLength}" />
+                        <Button Grid.Column="3" Margin="16,0,0,0" Classes="Primary"
+                                Content="{x:Static res:Strings.Generate}" Command="{Binding GenerateCommand}" IsDefault="True" />
+                        <Button Grid.Column="4" Margin="8,0,0,0" Classes="Outline"
+                                Content="{x:Static res:Strings.Copy}" Command="{Binding CopyCommand}" />
+                    </Grid>
+                    <StackPanel Orientation="Horizontal">
+                        <Button Classes="Outline Refresh" Command="{Binding GenerateCommand}" ToolTip.Tip="{x:Static res:Strings.Regenerate}">
+                            <PathIcon Data="{StaticResource RefreshIcon}" Width="26" Height="26" />
+                        </Button>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- 強度メーター（暗証番号では非表示） -->
+            <Grid DockPanel.Dock="Bottom"
+                  Margin="0,12,0,0"
+                  ColumnDefinitions="Auto,*,Auto,Auto"
+                  IsVisible="{Binding IsStrengthVisible}">
+                <TextBlock Grid.Column="0" Text="{x:Static res:Strings.Strength}" VerticalAlignment="Center" Margin="0,0,12,0" />
+                <ProgressBar Grid.Column="1"
+                             Classes="Strength"
+                             Classes.Weak="{Binding IsStrengthWeak}"
+                             Classes.Fair="{Binding IsStrengthFair}"
+                             Classes.Good="{Binding IsStrengthGood}"
+                             Classes.Strong="{Binding IsStrengthStrong}"
+                             Value="{Binding StrengthFraction}" />
+                <TextBlock Grid.Column="2" Text="{Binding StrengthLabel}" FontWeight="SemiBold" VerticalAlignment="Center" Margin="12,0,0,0" />
+                <TextBlock Grid.Column="3" Classes="Muted" Text="{Binding StrengthBitsText}" VerticalAlignment="Center" Margin="8,0,0,0" MinWidth="64" TextAlignment="Right" />
+            </Grid>
+
+            <!-- 中央: 生成されたパスワード（クリックでコピー） -->
+            <shadui:Card Padding="8">
+              <Panel>
+                <!-- 履歴: コピーしたパスワードの一覧。件数ぶんの行を常に出し、足りない分は空行 -->
+                <ScrollViewer IsVisible="{Binding IsHistoryMode}"
+                              HorizontalScrollBarVisibility="Disabled"
+                              VerticalScrollBarVisibility="Auto">
+                    <ItemsControl x:Name="HistoryList" ItemsSource="{Binding HistoryRows}" Margin="4">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:HistoryRow">
+                                <Button Classes="HistoryRow"
+                                        IsEnabled="{Binding !IsEmpty}"
+                                        Command="{Binding #HistoryList.((vm:MainWindowViewModel)DataContext).CopyHistoryCommand}"
+                                        CommandParameter="{Binding}">
+                                    <Grid ColumnDefinitions="36,*,Auto,Auto">
+                                        <TextBlock Grid.Column="0" Classes="Muted" Text="{Binding Index}" VerticalAlignment="Center" />
+                                        <TextBlock Grid.Column="1" Classes="HistoryText" Text="{Binding Text}" />
+                                        <TextBlock Grid.Column="2" Classes="Muted" Text="{Binding KindLabel}" VerticalAlignment="Center" Margin="16,0,0,0" />
+                                        <TextBlock Grid.Column="3" Classes="Muted" Text="{Binding TimeText}" VerticalAlignment="Center" Margin="16,0,0,0" MinWidth="150" TextAlignment="Right" />
+                                    </Grid>
+                                </Button>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
+                <ScrollViewer x:Name="PasswordViewport"
+                              IsVisible="{Binding IsPasswordVisible}"
+                              HorizontalScrollBarVisibility="Disabled"
+                              VerticalScrollBarVisibility="Auto"
+                              SizeChanged="OnPasswordViewportSizeChanged">
+                    <Border x:Name="PasswordArea"
+                            Padding="4"
+                            ToolTip.Tip="{x:Static res:Strings.ClickToCopy}"
+                            Tapped="OnPasswordAreaTapped">
+                      <Panel>
+                        <!--
+                            覚えやすいパスワード: 単語と区切りを一文としてそのまま並べ、行末で折り返す。
+                            連番や背景は付けず、区切り文字の色分けだけ行う。
+                        -->
+                        <ItemsControl x:Name="PassphraseFlow"
+                                      ItemsSource="{Binding Segments}"
+                                      IsVisible="{Binding IsPassphraseMode}"
+                                      HorizontalAlignment="Center"
+                                      VerticalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="m:PasswordSegment">
+                                    <!-- 単語 + 区切りを横に並べ、連番は単語の真下に中央寄せ -->
+                                    <Grid ColumnDefinitions="Auto,Auto" RowDefinitions="Auto,Auto">
+                                        <TextBlock Grid.Row="0" Grid.Column="0"
+                                                   Classes="PasswordChar"
+                                                   FontSize="{Binding #PassphraseFlow.((vm:MainWindowViewModel)DataContext).CharFontSize}"
+                                                   Text="{Binding Text}" />
+                                        <TextBlock Grid.Row="0" Grid.Column="1"
+                                                   Classes="PasswordChar"
+                                                   Classes.Digit="{Binding IsSuffixDigit}"
+                                                   Classes.Symbol="{Binding !IsSuffixDigit}"
+                                                   IsVisible="{Binding Suffix, Converter={x:Static StringConverters.IsNotNullOrEmpty}}"
+                                                   FontSize="{Binding #PassphraseFlow.((vm:MainWindowViewModel)DataContext).CharFontSize}"
+                                                   Text="{Binding Suffix}" />
+                                        <TextBlock Grid.Row="1" Grid.Column="0"
+                                                   Classes="Muted"
+                                                   HorizontalAlignment="Center"
+                                                   Margin="0,2,0,0"
+                                                   FontSize="{Binding #PassphraseFlow.((vm:MainWindowViewModel)DataContext).IndexFontSize}"
+                                                   Text="{Binding Index}" />
+                                    </Grid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                        <!-- ランダムなパスワード / 暗証番号: 1 文字ずつの区画。列数・フォントサイズは ViewModel が計算する -->
+                        <ItemsControl x:Name="PasswordItems"
+                                      ItemsSource="{Binding Segments}"
+                                      IsVisible="{Binding !IsPassphraseMode}"
+                                      VerticalAlignment="Center">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <UniformGrid Columns="{Binding Columns}" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate x:DataType="m:PasswordSegment">
+                                    <Border Classes="Cell" Classes.Odd="{Binding IsOdd}">
+                                        <StackPanel Spacing="2">
+                                            <TextBlock Classes="PasswordChar"
+                                                       Classes.Lowercase="{Binding IsLowercase}"
+                                                       Classes.Uppercase="{Binding IsUppercase}"
+                                                       Classes.Digit="{Binding IsDigit}"
+                                                       Classes.Symbol="{Binding IsSymbol}"
+                                                       HorizontalAlignment="Center"
+                                                       FontSize="{Binding #PasswordItems.((vm:MainWindowViewModel)DataContext).CharFontSize}"
+                                                       Text="{Binding Text}" />
+                                            <TextBlock Classes="Muted"
+                                                       FontSize="{Binding #PasswordItems.((vm:MainWindowViewModel)DataContext).IndexFontSize}"
+                                                       HorizontalAlignment="Center"
+                                                       Text="{Binding Index}" />
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                      </Panel>
+                    </Border>
+                </ScrollViewer>
+              </Panel>
+            </shadui:Card>
+        </DockPanel>
+
+        <!-- トースト通知の表示先 -->
+        <shadui:ToastHost Manager="{Binding ToastManager}" Position="BottomRight" />
+    </Panel>
+</shadui:Window>

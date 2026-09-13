@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve">
+    <value>Random Password Generator</value>
+  </data>
+  <data name="Generate" xml:space="preserve">
+    <value>Generate</value>
+  </data>
+  <data name="Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="IncludeUppercase" xml:space="preserve">
+    <value>Uppercase</value>
+  </data>
+  <data name="IncludeLowercase" xml:space="preserve">
+    <value>Lowercase</value>
+  </data>
+  <data name="IncludeDigits" xml:space="preserve">
+    <value>Digits</value>
+  </data>
+  <data name="IncludeSymbols" xml:space="preserve">
+    <value>Symbols</value>
+  </data>
+  <data name="OmitConfusing" xml:space="preserve">
+    <value>Avoid ambiguous characters</value>
+  </data>
+  <data name="ClickToCopy" xml:space="preserve">
+    <value>Click to copy to the clipboard</value>
+  </data>
+  <data name="Copied" xml:space="preserve">
+    <value>Copied!</value>
+  </data>
+  <data name="CopiedDetail" xml:space="preserve">
+    <value>The password has been copied to the clipboard.</value>
+  </data>
+  <data name="ModeRandom" xml:space="preserve">
+    <value>Random password</value>
+  </data>
+  <data name="ModePassphrase" xml:space="preserve">
+    <value>Memorable password</value>
+  </data>
+  <data name="ModePin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="WordCount" xml:space="preserve">
+    <value>Words</value>
+  </data>
+  <data name="Separator" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="PinLength" xml:space="preserve">
+    <value>Digits</value>
+  </data>
+  <data name="SeparatorHyphen" xml:space="preserve">
+    <value>Hyphens</value>
+  </data>
+  <data name="SeparatorSpace" xml:space="preserve">
+    <value>Spaces</value>
+  </data>
+  <data name="SeparatorPeriod" xml:space="preserve">
+    <value>Periods</value>
+  </data>
+  <data name="SeparatorComma" xml:space="preserve">
+    <value>Commas</value>
+  </data>
+  <data name="SeparatorUnderscore" xml:space="preserve">
+    <value>Underscores</value>
+  </data>
+  <data name="SeparatorRandomDigit" xml:space="preserve">
+    <value>Random digits</value>
+  </data>
+  <data name="SeparatorRandomDigitOrSymbol" xml:space="preserve">
+    <value>Random digits and symbols</value>
+  </data>
+  <data name="Regenerate" xml:space="preserve">
+    <value>Generate a new one</value>
+  </data>
+  <data name="Strength" xml:space="preserve">
+    <value>Strength</value>
+  </data>
+  <data name="Strength0" xml:space="preserve">
+    <value>Very weak</value>
+  </data>
+  <data name="Strength1" xml:space="preserve">
+    <value>Weak</value>
+  </data>
+  <data name="Strength2" xml:space="preserve">
+    <value>Fair</value>
+  </data>
+  <data name="Strength3" xml:space="preserve">
+    <value>Strong</value>
+  </data>
+  <data name="Strength4" xml:space="preserve">
+    <value>Very strong</value>
+  </data>
+  <data name="BitsFormat" xml:space="preserve">
+    <value>{0} bits</value>
+  </data>
+  <data name="EstimatedBitsFormat" xml:space="preserve">
+    <value>approx. {0} bits</value>
+  </data>
+  <data name="ModeHistory" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistoryEnabled" xml:space="preserve">
+    <value>Keep history</value>
+  </data>
+  <data name="HistoryCapacity" xml:space="preserve">
+    <value>Entries</value>
+  </data>
+  <data name="HistoryClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="HistoryDisabledHint" xml:space="preserve">
+    <value>History is off. New copies are not recorded.</value>
+  </data>
+  <data name="HistoryHint" xml:space="preserve">
+    <value>Copied passwords are kept here only while the app is running; nothing is written to disk. Click one to copy it again.</value>
+  </data>
+  <data name="HistoryKindRandom" xml:space="preserve">
+    <value>Random</value>
+  </data>
+  <data name="HistoryKindPassphrase" xml:space="preserve">
+    <value>Memorable</value>
+  </data>
+  <data name="HistoryKindPin" xml:space="preserve">
+    <value>PIN</value>
+  </data>
+  <data name="CopyFailed" xml:space="preserve">
+    <value>Could not copy</value>
+  </data>
+  <data name="CopyFailedDetail" xml:space="preserve">
+    <value>The clipboard is not available.</value>
+  </data>
+</root>

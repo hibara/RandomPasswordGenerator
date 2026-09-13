@@ -1,0 +1,27 @@
+# 既定: テキストは LF で保存し、checkout 時は OS の既定に従う
+* text=auto
+
+# ソースは LF 固定（macOS / Windows で差分が出ないように）
+*.cs      text eol=lf
+*.axaml   text eol=lf
+*.csproj  text eol=lf
+*.slnx    text eol=lf
+*.resx    text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+*.plist   text eol=lf
+*.manifest text eol=lf
+*.py      text eol=lf
+*.sh      text eol=lf
+
+# 辞書データは改行を一切変換しない。
+# 生成スクリプトの --check は既存出力とバイト単位で比較するため、CRLF に変換されると失敗する
+dic/**    -text
+
+# バイナリ
+*.ttf   binary
+*.icns  binary
+*.ico   binary
+*.png   binary
+*.psd   binary
+*.dmg   binary

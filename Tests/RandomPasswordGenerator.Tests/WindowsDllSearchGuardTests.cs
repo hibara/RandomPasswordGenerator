@@ -19,6 +19,31 @@ public sealed class WindowsOnlyFactAttribute : FactAttribute
 }
 
 /// <summary>
+/// Windows で、テストホストの EXE がテスト出力フォルダーにあるときだけ実行する。
+/// テストホストは条件によって共有の dotnet.exe や NuGet キャッシュの testhost.exe になることがあり、
+/// その隣にはおとりを書き込めない（書き込めても共有フォルダーを汚す）ので、そのときはスキップする。
+/// </summary>
+public sealed class WindowsTestHostInOutputDirectoryFactAttribute : FactAttribute
+{
+    public WindowsTestHostInOutputDirectoryFactAttribute()
+    {
+        if (!OperatingSystem.IsWindows())
+        {
+            Skip = "Windows only";
+            return;
+        }
+
+        var processDirectory = Path.GetDirectoryName(Environment.ProcessPath);
+        var outputDirectory = Path.TrimEndingDirectorySeparator(Path.GetFullPath(AppContext.BaseDirectory));
+        if (processDirectory is null
+            || !string.Equals(Path.GetFullPath(processDirectory), outputDirectory, StringComparison.OrdinalIgnoreCase))
+        {
+            Skip = "The test host is not running from the test output directory";
+        }
+    }
+}
+
+/// <summary>
 /// DLL ハイジャック対策（<see cref="WindowsDllSearchGuard"/>）の検証。
 /// <para>
 /// SetDefaultDllDirectories はプロセス全体に効いて元に戻せないため、このテストはテストホスト全体の
@@ -144,11 +169,12 @@ public class WindowsDllSearchGuardTests
         Assert.Equal(IntPtr.Zero, WindowsDllSearchGuard.Resolve(@"C:\nowhere\bcrypt.dll", assembly, null));
     }
 
-    [WindowsOnlyFact]
+    [WindowsTestHostInOutputDirectoryFact]
     public void ネイティブの検索フラグなしLoadLibraryでもEXEのフォルダーの偽DLLは読み込まれない()
     {
-        // テストホストの EXE と同じフォルダーに、System32 にもある名前の偽 DLL を置く
-        var appDirectory = Path.GetDirectoryName(Environment.ProcessPath)!;
+        // テストホストの EXE と同じフォルダー（属性で出力フォルダーと一致することを確認済み）に、
+        // System32 にもある名前の偽 DLL を置く
+        var appDirectory = Path.GetFullPath(Path.GetDirectoryName(Environment.ProcessPath)!);
         Assert.True(File.Exists(Path.Combine(System32, "wkscli.dll")));
         var decoy = Path.Combine(appDirectory, "wkscli.dll");
         File.WriteAllBytes(decoy, MinimalDll());

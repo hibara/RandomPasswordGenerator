@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- __XXX__ は publish 時に RandomPasswordGenerator.csproj の値で置き換えられる（BundleMacApp ターゲット） -->
+    <key>CFBundleName</key>
+    <string>__NAME__</string>
+    <key>CFBundleDisplayName</key>
+    <string>__DISPLAY_NAME__</string>
+    <key>CFBundleIdentifier</key>
+    <string>__IDENTIFIER__</string>
+    <key>CFBundleVersion</key>
+    <string>__VERSION__</string>
+    <key>CFBundleShortVersionString</key>
+    <string>__VERSION__</string>
+    <key>CFBundleExecutable</key>
+    <string>__NAME__</string>
+    <key>CFBundleIconFile</key>
+    <string>icon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>ja</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>__MIN_OS__</string>
+    <key>LSApplicationCategoryType</key>
+    <string>public.app-category.utilities</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSHumanReadableCopyright</key>
+    <string>__COPYRIGHT__</string>
+</dict>
+</plist>

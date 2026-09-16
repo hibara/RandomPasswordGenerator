@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
-  <assemblyIdentity version="1.0.0.0" name="RandomPasswordGenerator"/>
+  <!-- version のプレースホルダーはビルド時に RandomPasswordGenerator.csproj の AssemblyVersion で置き換えられる（GenerateAppManifest ターゲット）。生成物は obj/app.manifest -->
+  <assemblyIdentity version="__ASSEMBLY_VERSION__" name="RandomPasswordGenerator"/>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
     <application>
       <!-- Windows 10 / 11 -->

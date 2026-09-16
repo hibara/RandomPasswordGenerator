@@ -32,6 +32,16 @@ dotnet test
 | `Tests/` | 単体テスト（xUnit） |
 | `dic/` | パスフレーズ用の単語辞書と、その作成手順 |
 
+## DLL ハイジャック対策（Windows）
+
+Windows 版は単一 EXE で配布しています。EXE と同じフォルダーに置かれた偽の DLL（`bcrypt.dll` など）が Windows 本来の DLL より先に読み込まれる「DLL ハイジャック」を防ぐため、起動時に次の対策を行います（`Services/WindowsDllSearchGuard.cs`）。
+
+1. `SetDllDirectory("")` と `SetDefaultDllDirectories` で、ネイティブコードからの DLL 検索を System32 に限定する（EXE のフォルダー・カレントフォルダー・PATH を検索順序から外す）。この設定に失敗したときは起動しない
+2. .NET の P/Invoke が参照する DLL は System32 だけから読み込む（アプリ同梱のネイティブ DLL は展開先のフルパスで読み込み、どちらにも無い名前は拒否する）。乱数生成の土台になる `bcrypt.dll` などの暗号系 DLL は、起動直後に System32 の本物を読み込んで固定する
+3. EXE と同じフォルダーに DLL ファイルがあれば、警告を表示して起動しない（このアプリは EXE の隣に DLL を必要としません）。フォルダーを調べられなかったときも起動しない
+
+ZIP 版を使うときは、EXE を DLL のない専用フォルダーに置いてください。インストーラー版は Program Files にインストールされるため、この問題の影響を受けません。対策の再検証には `Tests/DllHijackCheck/Invoke-DllHijackCheck.ps1` を使えます（publish した単一 EXE の隣におとり DLL を並べて起動し、固有マーカー付きの拒否ダイアログを観測できれば合格）。
+
 ## ライセンス
 
 MIT License。サードパーティのライセンスは [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) を参照してください。
